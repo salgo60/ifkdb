@@ -16,11 +16,16 @@ Koppla ihop WIkipedia med ifkdb
 
 <img width="1210" alt="image" src="https://github.com/salgo60/ifkdb/assets/14206509/01a495d5-734b-42c1-b6f5-02b5c48b50ab">
 
-### Antal sidvisningar hos artiklar som har mall ifkdb på svenska wikipedia
+### Antal sidvisningar 
+#### hos artiklar som har mall ifkdb på svenska wikipedia
 * [Sidvisningar i år](https://pageviews.wmcloud.org/massviews/?platform=all-access&agent=user&source=category&range=this-year&subjectpage=0&subcategories=0&sort=views&direction=1&view=list&target=https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se) > 300 000
 
 <img width="1210" alt="image" src="https://github.com/salgo60/ifkdb/assets/14206509/80643a04-334f-44bf-9b0a-f97b51192d62">
+#### engelska Wikipedia 
+* Kategori [IFK Göteborg players](https://en.wikipedia.org/wiki/Category:IFK_G%C3%B6teborg_players)
+* [Sidvisningar i år](https://pageviews.wmcloud.org/massviews/?platform=all-access&agent=user&source=category&range=this-year&subjectpage=0&subcategories=0&sort=views&direction=1&view=list&target=https://en.wikipedia.org/wiki/Category:IFK_G%25C3%25B6teborg_players) > 1 miljon visningar i är
 
+<img width="1210" alt="image" src="https://github.com/salgo60/ifkdb/assets/14206509/bbb3645a-cca1-443d-b0e8-acde903c3242">
 
 ### Open Refine - ladda in kopplingen
 Kör in dom som har länk WIkipedia afrtikel = 285 stycken 
