@@ -2,7 +2,7 @@
 Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare...
 
 * [X] ladda upp koppling i Wikidata för [dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
-* [ ] lägga in mall **ifkdb** i WIkipedia artikeln
+* [ ] lägga in mall **ifkdb** i WIkipedia artikeln - [lista saknar mall](https://petscan.wmflabs.org/?psid=25469508)
 
 ----
 * Mall [ifkdb](ss)
