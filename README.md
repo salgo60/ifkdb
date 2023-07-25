@@ -5,7 +5,7 @@ Wikidata and ifkdb
    * Spårbar kategori [Kategori:Ifkdb.se](https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se)
 * WD prop [Property:P11905](https://www.wikidata.org/wiki/Property:P11905)
    * [Lista kopplade](https://w.wiki/77gS) = 349 stycken
-      * **Fungerar ej** [Lista WD kopplade men saknar mall ifkdb](https://petscan.wmflabs.org/?psid=25469266)
+     * [Lista WD kopplade men saknar mall ifkdb i Wikipedia artikeln](https://petscan.wmflabs.org/?psid=25469508)
 
 ### Antal artiklar i WIkipedia per språk
 * [lista](https://w.wiki/77ip)
