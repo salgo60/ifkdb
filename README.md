@@ -18,7 +18,7 @@ Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Götebor
 
 ### Antal sidvisningar 
 #### hos artiklar som har mall ifkdb på svenska wikipedia
-* [Sidvisningar i år](https://pageviews.wmcloud.org/massviews/?platform=all-access&agent=user&source=category&range=this-year&subjectpage=0&subcategories=0&sort=views&direction=1&view=list&target=https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se) > 300 000
+* [Sidvisningar i år](https://pageviews.wmcloud.org/massviews/?platform=all-access&agent=user&source=category&range=this-year&subjectpage=0&subcategories=0&sort=views&direction=1&view=list&target=https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se) > 541 865
 
 <img width="1210" alt="image" src="https://github.com/salgo60/ifkdb/assets/14206509/80643a04-334f-44bf-9b0a-f97b51192d62">
 
