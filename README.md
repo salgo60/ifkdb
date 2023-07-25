@@ -1,7 +1,7 @@
 # [ifkdb]()
-Koppla ihop WIkipedia med ifkdb
+Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare...
 
-* [X] ladda upp koplling i Wikidata för dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
+* [X] ladda upp koppling i Wikidata för [dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
 * [ ] lägga in mall **ifkdb** i WIkipedia artikeln
 
 ----
