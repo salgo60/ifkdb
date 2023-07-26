@@ -5,6 +5,11 @@ Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Götebor
 * [ ] lägga in mall **ifkdb** i WIkipedia artikeln - [lista saknar mall](https://petscan.wmflabs.org/?psid=25469508)
 
 ----
+### Lesson learned
+Wikipedia/Wikidata har enormt skitigt "fotbolls data" - "klippa och klistra" skalar inte --> blir bafra mer och mer ruttet varje dag...
+* skulle kunna bli magiskt bra om vi byggde upp ett datadrivet ekosystem som uppdaterar varandra och kollar konsistens...
+   * gissar att lite saker måste styras upp men ingen rocket science 
+----
 * Mall [ifkdb](ss)
    * Spårbar kategori [Kategori:Ifkdb.se](https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se)
 * WD prop [Property:P11905](https://www.wikidata.org/wiki/Property:P11905)
