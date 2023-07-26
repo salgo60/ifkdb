@@ -3,7 +3,7 @@ Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Götebor
 
 * [X] ladda upp koppling i Wikidata för [dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
 * [X] lägga in mall **ifkdb** i sv:WIkipedia artikeln - [lista saknar mall](https://petscan.wmflabs.org/?psid=25469508)
-* [ ] se om vi kan koppla en:Wikipedia se [#2](https://github.com/salgo60/ifkdb/issues/2)
+* [ ] se om vi kan koppla en:Wikipedia se [#2](https://github.com/salgo60/ifkdb/issues/2) - [artiklar utan mallen](https://petscan.wmflabs.org/?psid=25476325)
 
 ----
 ### Lesson learned
