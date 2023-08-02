@@ -6,6 +6,8 @@ Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Götebor
 * [X] se om vi kan koppla en:Wikipedia se [#2](https://github.com/salgo60/ifkdb/issues/2) - [artiklar utan mallen](https://petscan.wmflabs.org/?psid=25476325)
 * [X] |[spelare kopplade i Wikidata till ifkdb och vilka språk dom finns på](https://w.wiki/7A$9)
     * [X] men saknar atrtikel på [svenska Wikipedia](https://w.wiki/7A$M) / [engelska Wikipedia](https://w.wiki/7A$L)
+* [X] skapa utkast Entity schema för svensk fotbollsspelare [#11](https://github.com/salgo60/ifkdb/issues/11)
+* [X] söka ut IFKspelare i WIkidata och se o det finns bilder hos Svenskt Porträttarkiv [#12](https://github.com/salgo60/ifkdb/issues/12)
 ----
 ### Lesson learned
 Wikipedia/Wikidata har enormt skitigt "fotbolls data" - "klippa och klistra" skalar inte --> blir bara mer och mer ruttet för varje dag...
