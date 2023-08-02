@@ -1,5 +1,6 @@
 # [ifkdb]()
 Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare... Wikidata [Property:P11905](https://www.wikidata.org/wiki/Property:P11905)
+* ["Fördjupat IFKdb-samarbete"](https://ifkgoteborg.se/nyheter/foreningen/2021/fordjupat-ifkdb-samarbete/)
 
 * [X] ladda upp koppling i Wikidata för [dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
 * [X] lägga in mall **ifkdb** i sv:Wikipedia artikeln - [lista saknar mall](https://petscan.wmflabs.org/?psid=25469508)
