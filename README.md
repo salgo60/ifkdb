@@ -1,13 +1,23 @@
 # [ifkdb]()
-Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare...
-
-* [X] ladda upp koppling i Wikidata för [dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
-* [X] lägga in mall **ifkdb** i sv:WIkipedia artikeln - [lista saknar mall](https://petscan.wmflabs.org/?psid=25469508)
-* [ ] se om vi kan koppla en:Wikipedia se [#2](https://github.com/salgo60/ifkdb/issues/2) - [artiklar utan mallen](https://petscan.wmflabs.org/?psid=25476325)
+Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare... Wikidata [Property:P11905](https://www.wikidata.org/wiki/Property:P11905)
+* ["Fördjupat IFKdb-samarbete"](https://ifkgoteborg.se/nyheter/foreningen/2021/fordjupat-ifkdb-samarbete/)
+* ["Blåvitt arkiv öppnas upp"](https://ifkgoteborg.se/nyheter/nyheter/2020/blavitt-arkiv-oppnas-upp/)
 
 ----
+
+* [X] ladda upp koppling i Wikidata för [dom som har som har artikel i Wikipedia](https://w.wiki/77gS)
+* [X] lägga in mall **ifkdb** i sv:Wikipedia artikeln - [lista saknar mall](https://petscan.wmflabs.org/?psid=25469508)
+* [X] se om vi kan koppla en:Wikipedia se [#2](https://github.com/salgo60/ifkdb/issues/2) - [artiklar utan mallen](https://petscan.wmflabs.org/?psid=25476325)
+* [X] |[spelare kopplade i Wikidata till ifkdb och vilka språk dom finns på](https://w.wiki/7A$9)
+    * [X] men saknar artikel på [svenska Wikipedia](https://w.wiki/7A$M) / [engelska Wikipedia](https://w.wiki/7A$L)
+* [X] skapa utkast Entity schema för svensk fotbollsspelare [#11](https://github.com/salgo60/ifkdb/issues/11)
+* Bilder
+   * [X] söka ut IFKspelare i WIkidata och se om det finns bilder hos Svenskt Porträttarkiv [#12](https://github.com/salgo60/ifkdb/issues/12)
+   * [X] göra bilder som avbildar IFKDB spelare på wikicommons kopplade med strukturerad data [#4](https://github.com/salgo60/ifkdb/issues/4) 
+* [X] försök att lokalisera personers plats på kyrkogårdar [#9](https://github.com/salgo60/ifkdb/issues/9)
+----
 ### Lesson learned
-Wikipedia/Wikidata har enormt skitigt "fotbolls data" - "klippa och klistra" skalar inte --> blir bara mer och mer ruttet för varje dag...
+Wikipedia/Wikidata har enormt skitigt "fotbollsdata" - "klippa och klistra" skalar inte --> blir bara mer och mer ruttet för varje dag...
 * skulle kunna bli magiskt bra om vi byggde upp ett datadrivet ekosystem som uppdaterar varandra och kollar konsistens...
    * gissar att lite saker måste styras upp men ingen rocket science 
 ----
@@ -24,7 +34,7 @@ Wikipedia/Wikidata har enormt skitigt "fotbolls data" - "klippa och klistra" ska
 
 ### Antal sidvisningar 
 #### hos artiklar som har mall ifkdb på svenska wikipedia
-* [Sidvisningar i år](https://pageviews.wmcloud.org/massviews/?platform=all-access&agent=user&source=category&range=this-year&subjectpage=0&subcategories=0&sort=views&direction=1&view=list&target=https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se) > 541 865
+* [Sidvisningar i år](https://pageviews.wmcloud.org/massviews/?platform=all-access&agent=user&source=category&range=this-year&subjectpage=0&subcategories=0&sort=views&direction=1&view=list&target=https://sv.wikipedia.org/wiki/Kategori:Ifkdb.se) > 725 314
 
 <img width="1210" alt="image" src="https://github.com/salgo60/ifkdb/assets/14206509/80643a04-334f-44bf-9b0a-f97b51192d62">
 
