@@ -1,3 +1,6 @@
+* [BOISHistoria](https://github.com/salgo60/ifkdb/issues/14)
+* [Snokadb](https://github.com/salgo60/ifkdb/issues/13)
+
 # [ifkdb]()
 Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare... Wikidata [Property:P11905](https://www.wikidata.org/wiki/Property:P11905)
 * ["Fördjupat IFKdb-samarbete"](https://ifkgoteborg.se/nyheter/foreningen/2021/fordjupat-ifkdb-samarbete/)
