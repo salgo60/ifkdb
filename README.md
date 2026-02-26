@@ -5,6 +5,7 @@
 Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Göteborgs spelare... Wikidata [Property:P11905](https://www.wikidata.org/wiki/Property:P11905)
 * ["Fördjupat IFKdb-samarbete"](https://ifkgoteborg.se/nyheter/foreningen/2021/fordjupat-ifkdb-samarbete/)
 * ["Blåvitt arkiv öppnas upp"](https://ifkgoteborg.se/nyheter/nyheter/2020/blavitt-arkiv-oppnas-upp/)
+* [kategorier om fotbollsspelare vs. Wikidata wdt:P54](https://github.com/salgo60/ifkdb/issues/17)
 
 ----
 
