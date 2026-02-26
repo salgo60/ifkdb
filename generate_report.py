@@ -2,8 +2,6 @@ import requests
 import time
 from datetime import datetime
 
-from datetime import datetime
-
 def log(message):
     now = datetime.now().strftime("%H:%M:%S")
     print(f"[{now}] {message}", flush=True) 
@@ -19,6 +17,37 @@ S.headers.update({
 # ---------------------------------------------------
 # Helpers
 # ---------------------------------------------------
+
+def sparql_query(query):
+
+    headers = {
+        "User-Agent": S.headers["User-Agent"],
+        "Accept": "application/sparql-results+json"
+    }
+
+    for attempt in range(5):
+        r = requests.get(
+            SPARQL_ENDPOINT,
+            params={"query": query},
+            headers=headers,
+            timeout=60
+        )
+        if r.status_code == 429:
+            wait = 5 * (attempt + 1)
+            log(f"429 Too Many Requests — sleeping {wait}s")
+            time.sleep(wait)
+            continue
+
+        if r.status_code >= 500:
+            wait = 3 * (attempt + 1)
+            log(f"Server error {r.status_code} — retrying in {wait}s")
+            time.sleep(wait)
+            continue
+
+        r.raise_for_status()
+        return r.json()
+
+    raise Exception("SPARQL failed after retries")
 
 def get_subcategories(category_title):
     members = []
@@ -107,7 +136,7 @@ def get_team_qid_from_category(category_title):
 
     r = S.get(WIKI_API, params=params)
     r.raise_for_status()
-    data = sparql_query(query)
+    data = r.json()
 
     pages = data.get("query", {}).get("pages", [])
     if not pages or "pageprops" not in pages[0]:
@@ -124,21 +153,14 @@ def get_team_qid_from_category(category_title):
     }}
     """
 
-    headers = {
-        "User-Agent": S.headers["User-Agent"],
-        "Accept": "application/sparql-results+json"
-    }
-
-    r = requests.get(SPARQL_ENDPOINT, params={"query": query}, headers=headers)
-    r.raise_for_status()
-    data = r.json()
+    data = sparql_query(query)
 
     results = data["results"]["bindings"]
     if results:
         return results[0]["club"]["value"].split("/")[-1]
 
     return None
-
+    
 
 def get_players_via_p54(team_qid):
 
@@ -148,49 +170,13 @@ def get_players_via_p54(team_qid):
     }}
     """
 
-    headers = {
-        "User-Agent": S.headers["User-Agent"],
-        "Accept": "application/sparql-results+json"
-    }
-
-    r = requests.get(SPARQL_ENDPOINT, params={"query": query}, headers=headers)
-    r.raise_for_status()
     data = sparql_query(query)
 
     return {
         row["player"]["value"].split("/")[-1]
         for row in data["results"]["bindings"]
-    }
-def sparql_query(query):
-
-    headers = {
-        "User-Agent": S.headers["User-Agent"],
-        "Accept": "application/sparql-results+json"
-    }
-
-    for attempt in range(5):
-        r = requests.get(
-            SPARQL_ENDPOINT,
-            params={"query": query},
-            headers=headers
-        )
-
-        if r.status_code == 429:
-            wait = 5 * (attempt + 1)
-            log(f"429 Too Many Requests — sleeping {wait}s")
-            time.sleep(wait)
-            continue
-
-        if r.status_code >= 500:
-            wait = 3 * (attempt + 1)
-            log(f"Server error {r.status_code} — retrying in {wait}s")
-            time.sleep(wait)
-            continue
-
-        r.raise_for_status()
-        return r.json()
-
-    raise Exception("SPARQL failed after retries")
+    } 
+    
 
 # ---------------------------------------------------
 # MAIN REPORT
