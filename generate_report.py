@@ -87,7 +87,8 @@ def get_category_players(category_title):
 
         if "continue" in data:
             gcmcontinue = data["continue"]["gcmcontinue"]
-            time.sleep(0.2)
+            #time.sleep(0.2)
+            time.sleep(1.5)
         else:
             break
 
@@ -292,7 +293,8 @@ def generate_report(main_category):
         </details>
         """
 
-        time.sleep(0.2)
+        #time.sleep(0.2)
+        time.sleep(1.5)
         elapsed = round(time.time() - start_time, 2)
     
     header = f"""
@@ -331,7 +333,7 @@ def generate_report(main_category):
 
     log("=== MONITOR COMPLETE ===")
     log(f"Total players: {total_players}")
-    log(f"Total missing: {total_players - total_with_p54}")
+    log(f"Total missing: {total_missing}")
     log(f"Report file: {report_filename}")
     return report_filename, qs_filename
 
