@@ -1,0 +1,32 @@
+name: Wikidata Revision
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # varje natt 03:00
+  workflow_dispatch:      # kan köras manuellt
+
+jobs:
+  run-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run report
+        run: python generate_report.py
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: wikidata-report
+          path: |
+            rapport_*.html
+            quickstatements_*.txt
