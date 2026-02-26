@@ -2,52 +2,52 @@ import requests
 import time
 from datetime import datetime
 
+def log(message):
+    now = datetime.now().strftime("%H:%M:%S")
+    print(f"[{now}] {message}", flush=True) 
+
 WIKI_API = "https://sv.wikipedia.org/w/api.php"
 SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
 
 S = requests.Session()
 S.headers.update({
-    "User-Agent": "Wikipedia_cat_monitor/1.0 (https://github.com/salgo60/ifkdb)"
+    "User-Agent": "Wikipedia_cat/1.0 (https://github.com/salgo60/ifkdb; contact: salgo60@msn.com)"
 })
 
-
-import json
-import os
-
-HISTORY_FILE = "data/history.json"
-
-def update_history(total_clubs, total_players, total_with_p54):
-
-    os.makedirs("data", exist_ok=True)
-
-    total_missing = total_players - total_with_p54
-    percent_missing = round((total_missing / total_players) * 100, 2) if total_players else 0
-
-    snapshot = {
-        "date": datetime.now().strftime("%Y-%m-%d"),
-        "clubs": total_clubs,
-        "players": total_players,
-        "with_p54": total_with_p54,
-        "missing": total_missing,
-        "percent_missing": percent_missing
-    }
-
-    history = []
-
-    if os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, "r", encoding="utf-8") as f:
-            history = json.load(f)
-
-    history.append(snapshot)
-
-    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-        json.dump(history, f, indent=2)
-
-    return history
-    
 # ---------------------------------------------------
 # Helpers
 # ---------------------------------------------------
+
+def sparql_query(query):
+
+    headers = {
+        "User-Agent": S.headers["User-Agent"],
+        "Accept": "application/sparql-results+json"
+    }
+
+    for attempt in range(5):
+        r = requests.get(
+            SPARQL_ENDPOINT,
+            params={"query": query},
+            headers=headers,
+            timeout=60
+        )
+        if r.status_code == 429:
+            wait = 5 * (attempt + 1)
+            log(f"429 Too Many Requests — sleeping {wait}s")
+            time.sleep(wait)
+            continue
+
+        if r.status_code >= 500:
+            wait = 3 * (attempt + 1)
+            log(f"Server error {r.status_code} — retrying in {wait}s")
+            time.sleep(wait)
+            continue
+
+        r.raise_for_status()
+        return r.json()
+
+    raise Exception("SPARQL failed after retries")
 
 def get_subcategories(category_title):
     members = []
@@ -109,11 +109,15 @@ def get_category_players(category_title):
             for page in data["query"]["pages"]:
                 qid = page.get("pageprops", {}).get("wikibase_item")
                 if qid:
-                    members.append(qid)
+                    members.append({
+                        "name": page["title"],
+                        "qid": qid
+                    })
 
         if "continue" in data:
             gcmcontinue = data["continue"]["gcmcontinue"]
-            time.sleep(0.2)
+            #time.sleep(0.2)
+            time.sleep(1.5)
         else:
             break
 
@@ -149,138 +153,181 @@ def get_team_qid_from_category(category_title):
     }}
     """
 
-    headers = {
-        "User-Agent": S.headers["User-Agent"],
-        "Accept": "application/sparql-results+json"
-    }
-
-    r = requests.get(SPARQL_ENDPOINT, params={"query": query}, headers=headers)
-    r.raise_for_status()
-    data = r.json()
+    data = sparql_query(query)
 
     results = data["results"]["bindings"]
     if results:
         return results[0]["club"]["value"].split("/")[-1]
 
     return None
-
+    
 
 def get_players_via_p54(team_qid):
 
     query = f"""
-    SELECT (COUNT(?player) as ?count) WHERE {{
+    SELECT ?player WHERE {{
       ?player wdt:P54 wd:{team_qid}.
     }}
     """
 
-    headers = {
-        "User-Agent": S.headers["User-Agent"],
-        "Accept": "application/sparql-results+json"
-    }
+    data = sparql_query(query)
 
-    r = requests.get(SPARQL_ENDPOINT, params={"query": query}, headers=headers)
-    r.raise_for_status()
-    data = r.json()
-
-    return int(data["results"]["bindings"][0]["count"]["value"])
-
+    return {
+        row["player"]["value"].split("/")[-1]
+        for row in data["results"]["bindings"]
+    } 
+    
 
 # ---------------------------------------------------
-# Monitor Report
+# MAIN REPORT
 # ---------------------------------------------------
 
 def generate_report(main_category):
 
-    clubs = get_subcategories(main_category)
+    log("=== START MONITOR ===")
+    log(f"Category: {main_category}")
+
+    #clubs = get_subcategories(main_category)
+    clubs = get_subcategories(main_category)[:20]
+    #log(f"Found {len(clubs)} clubs")
+    log(f"Processing first {len(clubs)} clubs (CI limit)")
 
     total_players = 0
-    total_with_p54 = 0
+    total_correct = 0
+    total_missing = 0
 
-    club_stats = []
+    today_str = datetime.now().strftime("%Y%m%d")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+
+    report_filename = f"rapport_{today_str}.html"
+    qs_filename = f"quickstatements_P54_missing_{today_str}.txt"
+
+    quickstatements = []
+    html_blocks = ""
 
     for club_cat in sorted(clubs):
 
-        print("Analyserar:", club_cat)
+        start_time = time.time()
+        log(f"Processing club: {club_cat}")
 
         team_qid = get_team_qid_from_category(club_cat)
         if not team_qid:
             continue
 
         wiki_players = get_category_players(club_cat)
-        wiki_count = len(wiki_players)
+        wd_players = get_players_via_p54(team_qid)
 
-        wd_count = get_players_via_p54(team_qid)
+        club_total = 0
+        club_missing = 0
+        rows = ""
 
-        total_players += wiki_count
-        total_with_p54 += min(wiki_count, wd_count)
+        for player in sorted(wiki_players, key=lambda x: x["name"]):
 
-        missing = max(0, wiki_count - wd_count)
+            club_total += 1
+            total_players += 1
 
-        percent_missing = round((missing / wiki_count) * 100, 1) if wiki_count else 0
+            has_p54 = player["qid"] in wd_players
 
-        club_stats.append({
-            "club": club_cat.replace("Kategori:", ""),
-            "wiki_count": wiki_count,
-            "wd_count": wd_count,
-            "missing": missing,
-            "percent_missing": percent_missing
-        })
+            if has_p54:
+                total_correct += 1
+            else:
+                total_missing += 1
+                club_missing += 1
+                quickstatements.append(f'{player["qid"]}|P54|{team_qid}')
 
-        time.sleep(0.2)
+            lag_url = f"https://sv.wikipedia.org/wiki/{club_cat.replace(' ', '_')}"
+            player_url = f"https://sv.wikipedia.org/wiki/{player['name'].replace(' ', '_')}"
+            wikidata_url = f"https://www.wikidata.org/wiki/{player['qid']}"
+            p54_url = f"{wikidata_url}#P54"
 
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
-    today_str = datetime.now().strftime("%Y%m%d")
+            row_color = "" if has_p54 else ' style="background-color:#ffdddd;"'
+            symbol = "✅" if has_p54 else "❌"
+            status_text = "Har P54" if has_p54 else "Saknar P54"
 
-    report_filename = f"monitor_report_{today_str}.html"
+            rows += f"""
+            <tr{row_color}>
+                <td><a href="{lag_url}" target="_blank">{club_cat.replace("Kategori:", "")}</a></td>
+                <td><a href="{player_url}" target="_blank">{player["name"]}</a></td>
+                <td><a href="{wikidata_url}" target="_blank">{player["qid"]}</a></td>
+                <td>{symbol} <a href="{p54_url}" target="_blank">{status_text}</a></td>
+            </tr>
+            """
 
-    html = f"""
-    <h1>Monitor – P54 Coverage</h1>
-    <p><strong>Generated:</strong> {timestamp}</p>
-    <p><strong>Category:</strong> {main_category}</p>
+        if club_total == 0:
+            continue
 
-    <ul>
-        <li>Total clubs: {len(club_stats)}</li>
-        <li>Total players (Wikipedia): {total_players}</li>
-        <li>Total with P54 (approx): {total_with_p54}</li>
-        <li>Total missing (approx): {total_players - total_with_p54}</li>
-    </ul>
+        percent_missing = round((club_missing / club_total) * 100, 1)
 
-    <table border="1" cellpadding="6">
-        <tr>
-            <th>Club</th>
-            <th>Wikipedia players</th>
-            <th>P54 count</th>
-            <th>Missing</th>
-            <th>% Missing</th>
-        </tr>
-    """
-
-    for club in sorted(club_stats, key=lambda x: x["percent_missing"], reverse=True):
-
-        row_color = ' style="background-color:#ffdddd;"' if club["percent_missing"] > 30 else ""
-
-        html += f"""
-        <tr{row_color}>
-            <td>{club["club"]}</td>
-            <td>{club["wiki_count"]}</td>
-            <td>{club["wd_count"]}</td>
-            <td>{club["missing"]}</td>
-            <td>{club["percent_missing"]}%</td>
-        </tr>
+        html_blocks += f"""
+        <details>
+            <summary>
+                <strong>{club_cat.replace("Kategori:", "")}</strong>
+                – Spelare: {club_total}
+                – Saknar P54: {club_missing}
+                ({percent_missing}%)
+            </summary>
+            <table border="1" cellpadding="6" cellspacing="0">
+                <tr>
+                    <th>Lag</th>
+                    <th>Spelare</th>
+                    <th>Wikidata</th>
+                    <th>P54 status</th>
+                </tr>
+                {rows}
+            </table>
+            <br>
+        </details>
         """
 
-    html += "</table>"
+        #time.sleep(0.2)
+        time.sleep(1.5)
+        elapsed = round(time.time() - start_time, 2)
+    
+    header = f"""
+    <h1>Revisionsrapport – Fotbollsspelare i klubblag i Sverige</h1>
+
+    <p>
+    <strong>Rapport skapad:</strong> {timestamp}<br>
+    <strong>GitHub Issue:</strong>
+    <a href="https://github.com/salgo60/ifkdb/issues/17" target="_blank">
+    https://github.com/salgo60/ifkdb/issues/17
+    </a>
+    </p>
+
+    <ul>
+        <li><strong>Antal lag:</strong> {len(clubs)}</li>
+        <li><strong>Antal spelare:</strong> {total_players}</li>
+        <li><strong>Med korrekt wdt:P54:</strong> {total_correct}</li>
+        <li><strong>Saknar wdt:P54:</strong> {total_missing}</li>
+    </ul>
+    <hr>
+    """
+
+    full_html = header + html_blocks
 
     with open(report_filename, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(full_html)
 
-    print("\nMonitor report created:", report_filename)
+    quickstatements = sorted(set(quickstatements))
+    with open(qs_filename, "w", encoding="utf-8") as f:
+        f.write("\n".join(quickstatements))
+
+    print("\nKLART ✅")
+    print("Rapport:", report_filename)
+    print("QuickStatements:", qs_filename)
+    print("Antal QS:", len(quickstatements))
+
+    log("=== MONITOR COMPLETE ===")
+    log(f"Total players: {total_players}")
+    log(f"Total missing: {total_missing}")
+    log(f"Report file: {report_filename}")
+    return report_filename, qs_filename
 
 
 # ---------------------------------------------------
 # RUN
 # ---------------------------------------------------
 
-if __name__ == "__main__":
-    category = "Kategori:Fotbollsspelare_i_klubblag_i_Sverige"
-    generate_report(category)
+category = "Kategori:Fotbollsspelare_i_klubblag_i_Sverige"
+generate_report(category)
+
