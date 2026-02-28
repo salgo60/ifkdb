@@ -1,0 +1,2667 @@
+{
+  "1": {
+    "id": 1,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=1"
+  },
+  "2": {
+    "id": 2,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=2"
+  },
+  "3": {
+    "id": 3,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=3"
+  },
+  "4": {
+    "id": 4,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=4"
+  },
+  "5": {
+    "id": 5,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=5"
+  },
+  "6": {
+    "id": 6,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=6"
+  },
+  "7": {
+    "id": 7,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=7"
+  },
+  "8": {
+    "id": 8,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=8"
+  },
+  "9": {
+    "id": 9,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=9"
+  },
+  "10": {
+    "id": 10,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=10"
+  },
+  "11": {
+    "id": 11,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=11"
+  },
+  "12": {
+    "id": 12,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=12"
+  },
+  "13": {
+    "id": 13,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=13"
+  },
+  "14": {
+    "id": 14,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=14"
+  },
+  "15": {
+    "id": 15,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=15"
+  },
+  "17": {
+    "id": 17,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=17"
+  },
+  "18": {
+    "id": 18,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=18"
+  },
+  "19": {
+    "id": 19,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=19"
+  },
+  "20": {
+    "id": 20,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=20"
+  },
+  "21": {
+    "id": 21,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=21"
+  },
+  "22": {
+    "id": 22,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=22"
+  },
+  "23": {
+    "id": 23,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=23"
+  },
+  "24": {
+    "id": 24,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=24"
+  },
+  "25": {
+    "id": 25,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=25"
+  },
+  "26": {
+    "id": 26,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=26"
+  },
+  "27": {
+    "id": 27,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=27"
+  },
+  "28": {
+    "id": 28,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=28"
+  },
+  "29": {
+    "id": 29,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=29"
+  },
+  "30": {
+    "id": 30,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=30"
+  },
+  "31": {
+    "id": 31,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=31"
+  },
+  "32": {
+    "id": 32,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=32"
+  },
+  "33": {
+    "id": 33,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=33"
+  },
+  "34": {
+    "id": 34,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=34"
+  },
+  "35": {
+    "id": 35,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=35"
+  },
+  "36": {
+    "id": 36,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=36"
+  },
+  "37": {
+    "id": 37,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=37"
+  },
+  "38": {
+    "id": 38,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=38"
+  },
+  "39": {
+    "id": 39,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=39"
+  },
+  "40": {
+    "id": 40,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=40"
+  },
+  "41": {
+    "id": 41,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=41"
+  },
+  "42": {
+    "id": 42,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=42"
+  },
+  "43": {
+    "id": 43,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=43"
+  },
+  "44": {
+    "id": 44,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=44"
+  },
+  "45": {
+    "id": 45,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=45"
+  },
+  "46": {
+    "id": 46,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=46"
+  },
+  "47": {
+    "id": 47,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=47"
+  },
+  "48": {
+    "id": 48,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=48"
+  },
+  "49": {
+    "id": 49,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=49"
+  },
+  "50": {
+    "id": 50,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=50"
+  },
+  "51": {
+    "id": 51,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=51"
+  },
+  "52": {
+    "id": 52,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=52"
+  },
+  "54": {
+    "id": 54,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=54"
+  },
+  "55": {
+    "id": 55,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=55"
+  },
+  "56": {
+    "id": 56,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=56"
+  },
+  "57": {
+    "id": 57,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=57"
+  },
+  "58": {
+    "id": 58,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=58"
+  },
+  "59": {
+    "id": 59,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=59"
+  },
+  "60": {
+    "id": 60,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=60"
+  },
+  "61": {
+    "id": 61,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=61"
+  },
+  "62": {
+    "id": 62,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=62"
+  },
+  "63": {
+    "id": 63,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=63"
+  },
+  "64": {
+    "id": 64,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=64"
+  },
+  "66": {
+    "id": 66,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=66"
+  },
+  "67": {
+    "id": 67,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=67"
+  },
+  "68": {
+    "id": 68,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=68"
+  },
+  "69": {
+    "id": 69,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=69"
+  },
+  "70": {
+    "id": 70,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=70"
+  },
+  "71": {
+    "id": 71,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=71"
+  },
+  "72": {
+    "id": 72,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=72"
+  },
+  "73": {
+    "id": 73,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=73"
+  },
+  "74": {
+    "id": 74,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=74"
+  },
+  "75": {
+    "id": 75,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=75"
+  },
+  "76": {
+    "id": 76,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=76"
+  },
+  "77": {
+    "id": 77,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=77"
+  },
+  "78": {
+    "id": 78,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=78"
+  },
+  "80": {
+    "id": 80,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=80"
+  },
+  "81": {
+    "id": 81,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=81"
+  },
+  "82": {
+    "id": 82,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=82"
+  },
+  "83": {
+    "id": 83,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=83"
+  },
+  "84": {
+    "id": 84,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=84"
+  },
+  "85": {
+    "id": 85,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=85"
+  },
+  "86": {
+    "id": 86,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=86"
+  },
+  "87": {
+    "id": 87,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=87"
+  },
+  "88": {
+    "id": 88,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=88"
+  },
+  "89": {
+    "id": 89,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=89"
+  },
+  "90": {
+    "id": 90,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=90"
+  },
+  "91": {
+    "id": 91,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=91"
+  },
+  "92": {
+    "id": 92,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=92"
+  },
+  "174": {
+    "id": 174,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=174"
+  },
+  "175": {
+    "id": 175,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=175"
+  },
+  "176": {
+    "id": 176,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=176"
+  },
+  "177": {
+    "id": 177,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=177"
+  },
+  "178": {
+    "id": 178,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=178"
+  },
+  "179": {
+    "id": 179,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=179"
+  },
+  "180": {
+    "id": 180,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=180"
+  },
+  "181": {
+    "id": 181,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=181"
+  },
+  "182": {
+    "id": 182,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=182"
+  },
+  "183": {
+    "id": 183,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=183"
+  },
+  "184": {
+    "id": 184,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=184"
+  },
+  "185": {
+    "id": 185,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=185"
+  },
+  "186": {
+    "id": 186,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=186"
+  },
+  "187": {
+    "id": 187,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=187"
+  },
+  "188": {
+    "id": 188,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=188"
+  },
+  "189": {
+    "id": 189,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=189"
+  },
+  "190": {
+    "id": 190,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=190"
+  },
+  "191": {
+    "id": 191,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=191"
+  },
+  "192": {
+    "id": 192,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=192"
+  },
+  "193": {
+    "id": 193,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=193"
+  },
+  "194": {
+    "id": 194,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=194"
+  },
+  "195": {
+    "id": 195,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=195"
+  },
+  "196": {
+    "id": 196,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=196"
+  },
+  "197": {
+    "id": 197,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=197"
+  },
+  "198": {
+    "id": 198,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=198"
+  },
+  "199": {
+    "id": 199,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=199"
+  },
+  "200": {
+    "id": 200,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=200"
+  },
+  "201": {
+    "id": 201,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=201"
+  },
+  "204": {
+    "id": 204,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=204"
+  },
+  "205": {
+    "id": 205,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=205"
+  },
+  "206": {
+    "id": 206,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=206"
+  },
+  "207": {
+    "id": 207,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=207"
+  },
+  "208": {
+    "id": 208,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=208"
+  },
+  "209": {
+    "id": 209,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=209"
+  },
+  "210": {
+    "id": 210,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=210"
+  },
+  "211": {
+    "id": 211,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=211"
+  },
+  "212": {
+    "id": 212,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=212"
+  },
+  "213": {
+    "id": 213,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=213"
+  },
+  "215": {
+    "id": 215,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=215"
+  },
+  "216": {
+    "id": 216,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=216"
+  },
+  "217": {
+    "id": 217,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=217"
+  },
+  "218": {
+    "id": 218,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=218"
+  },
+  "219": {
+    "id": 219,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=219"
+  },
+  "220": {
+    "id": 220,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=220"
+  },
+  "221": {
+    "id": 221,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=221"
+  },
+  "222": {
+    "id": 222,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=222"
+  },
+  "225": {
+    "id": 225,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=225"
+  },
+  "226": {
+    "id": 226,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=226"
+  },
+  "227": {
+    "id": 227,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=227"
+  },
+  "228": {
+    "id": 228,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=228"
+  },
+  "229": {
+    "id": 229,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=229"
+  },
+  "230": {
+    "id": 230,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=230"
+  },
+  "231": {
+    "id": 231,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=231"
+  },
+  "232": {
+    "id": 232,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=232"
+  },
+  "234": {
+    "id": 234,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=234"
+  },
+  "235": {
+    "id": 235,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=235"
+  },
+  "237": {
+    "id": 237,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=237"
+  },
+  "238": {
+    "id": 238,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=238"
+  },
+  "239": {
+    "id": 239,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=239"
+  },
+  "240": {
+    "id": 240,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=240"
+  },
+  "241": {
+    "id": 241,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=241"
+  },
+  "242": {
+    "id": 242,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=242"
+  },
+  "243": {
+    "id": 243,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=243"
+  },
+  "244": {
+    "id": 244,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=244"
+  },
+  "245": {
+    "id": 245,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=245"
+  },
+  "246": {
+    "id": 246,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=246"
+  },
+  "247": {
+    "id": 247,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=247"
+  },
+  "248": {
+    "id": 248,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=248"
+  },
+  "249": {
+    "id": 249,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=249"
+  },
+  "250": {
+    "id": 250,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=250"
+  },
+  "251": {
+    "id": 251,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=251"
+  },
+  "252": {
+    "id": 252,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=252"
+  },
+  "253": {
+    "id": 253,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=253"
+  },
+  "255": {
+    "id": 255,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=255"
+  },
+  "257": {
+    "id": 257,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=257"
+  },
+  "258": {
+    "id": 258,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=258"
+  },
+  "259": {
+    "id": 259,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=259"
+  },
+  "261": {
+    "id": 261,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=261"
+  },
+  "262": {
+    "id": 262,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=262"
+  },
+  "263": {
+    "id": 263,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=263"
+  },
+  "264": {
+    "id": 264,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=264"
+  },
+  "265": {
+    "id": 265,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=265"
+  },
+  "266": {
+    "id": 266,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=266"
+  },
+  "267": {
+    "id": 267,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=267"
+  },
+  "268": {
+    "id": 268,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=268"
+  },
+  "269": {
+    "id": 269,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=269"
+  },
+  "270": {
+    "id": 270,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=270"
+  },
+  "271": {
+    "id": 271,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=271"
+  },
+  "272": {
+    "id": 272,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=272"
+  },
+  "273": {
+    "id": 273,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=273"
+  },
+  "275": {
+    "id": 275,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=275"
+  },
+  "276": {
+    "id": 276,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=276"
+  },
+  "277": {
+    "id": 277,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=277"
+  },
+  "278": {
+    "id": 278,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=278"
+  },
+  "279": {
+    "id": 279,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=279"
+  },
+  "280": {
+    "id": 280,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=280"
+  },
+  "281": {
+    "id": 281,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=281"
+  },
+  "282": {
+    "id": 282,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=282"
+  },
+  "283": {
+    "id": 283,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=283"
+  },
+  "284": {
+    "id": 284,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=284"
+  },
+  "285": {
+    "id": 285,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=285"
+  },
+  "287": {
+    "id": 287,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=287"
+  },
+  "288": {
+    "id": 288,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=288"
+  },
+  "289": {
+    "id": 289,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=289"
+  },
+  "290": {
+    "id": 290,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=290"
+  },
+  "291": {
+    "id": 291,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=291"
+  },
+  "292": {
+    "id": 292,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=292"
+  },
+  "293": {
+    "id": 293,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=293"
+  },
+  "294": {
+    "id": 294,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=294"
+  },
+  "295": {
+    "id": 295,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=295"
+  },
+  "296": {
+    "id": 296,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=296"
+  },
+  "297": {
+    "id": 297,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=297"
+  },
+  "298": {
+    "id": 298,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=298"
+  },
+  "299": {
+    "id": 299,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=299"
+  },
+  "300": {
+    "id": 300,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=300"
+  },
+  "301": {
+    "id": 301,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=301"
+  },
+  "302": {
+    "id": 302,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=302"
+  },
+  "303": {
+    "id": 303,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=303"
+  },
+  "304": {
+    "id": 304,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=304"
+  },
+  "305": {
+    "id": 305,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=305"
+  },
+  "306": {
+    "id": 306,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=306"
+  },
+  "307": {
+    "id": 307,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=307"
+  },
+  "308": {
+    "id": 308,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=308"
+  },
+  "309": {
+    "id": 309,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=309"
+  },
+  "310": {
+    "id": 310,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=310"
+  },
+  "311": {
+    "id": 311,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=311"
+  },
+  "313": {
+    "id": 313,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=313"
+  },
+  "316": {
+    "id": 316,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=316"
+  },
+  "317": {
+    "id": 317,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=317"
+  },
+  "319": {
+    "id": 319,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=319"
+  },
+  "320": {
+    "id": 320,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=320"
+  },
+  "321": {
+    "id": 321,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=321"
+  },
+  "322": {
+    "id": 322,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=322"
+  },
+  "323": {
+    "id": 323,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=323"
+  },
+  "324": {
+    "id": 324,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=324"
+  },
+  "326": {
+    "id": 326,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=326"
+  },
+  "327": {
+    "id": 327,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=327"
+  },
+  "328": {
+    "id": 328,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=328"
+  },
+  "329": {
+    "id": 329,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=329"
+  },
+  "330": {
+    "id": 330,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=330"
+  },
+  "331": {
+    "id": 331,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=331"
+  },
+  "332": {
+    "id": 332,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=332"
+  },
+  "333": {
+    "id": 333,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=333"
+  },
+  "334": {
+    "id": 334,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=334"
+  },
+  "337": {
+    "id": 337,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=337"
+  },
+  "338": {
+    "id": 338,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=338"
+  },
+  "339": {
+    "id": 339,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=339"
+  },
+  "340": {
+    "id": 340,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=340"
+  },
+  "341": {
+    "id": 341,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=341"
+  },
+  "342": {
+    "id": 342,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=342"
+  },
+  "343": {
+    "id": 343,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=343"
+  },
+  "344": {
+    "id": 344,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=344"
+  },
+  "345": {
+    "id": 345,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=345"
+  },
+  "346": {
+    "id": 346,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=346"
+  },
+  "347": {
+    "id": 347,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=347"
+  },
+  "348": {
+    "id": 348,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=348"
+  },
+  "349": {
+    "id": 349,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=349"
+  },
+  "350": {
+    "id": 350,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=350"
+  },
+  "351": {
+    "id": 351,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=351"
+  },
+  "352": {
+    "id": 352,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=352"
+  },
+  "353": {
+    "id": 353,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=353"
+  },
+  "354": {
+    "id": 354,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=354"
+  },
+  "355": {
+    "id": 355,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=355"
+  },
+  "356": {
+    "id": 356,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=356"
+  },
+  "357": {
+    "id": 357,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=357"
+  },
+  "358": {
+    "id": 358,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=358"
+  },
+  "359": {
+    "id": 359,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=359"
+  },
+  "360": {
+    "id": 360,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=360"
+  },
+  "361": {
+    "id": 361,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=361"
+  },
+  "362": {
+    "id": 362,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=362"
+  },
+  "363": {
+    "id": 363,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=363"
+  },
+  "364": {
+    "id": 364,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=364"
+  },
+  "365": {
+    "id": 365,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=365"
+  },
+  "366": {
+    "id": 366,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=366"
+  },
+  "367": {
+    "id": 367,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=367"
+  },
+  "368": {
+    "id": 368,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=368"
+  },
+  "369": {
+    "id": 369,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=369"
+  },
+  "370": {
+    "id": 370,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=370"
+  },
+  "371": {
+    "id": 371,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=371"
+  },
+  "372": {
+    "id": 372,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=372"
+  },
+  "373": {
+    "id": 373,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=373"
+  },
+  "374": {
+    "id": 374,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=374"
+  },
+  "375": {
+    "id": 375,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=375"
+  },
+  "376": {
+    "id": 376,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=376"
+  },
+  "377": {
+    "id": 377,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=377"
+  },
+  "378": {
+    "id": 378,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=378"
+  },
+  "379": {
+    "id": 379,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=379"
+  },
+  "380": {
+    "id": 380,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=380"
+  },
+  "381": {
+    "id": 381,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=381"
+  },
+  "382": {
+    "id": 382,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=382"
+  },
+  "383": {
+    "id": 383,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=383"
+  },
+  "384": {
+    "id": 384,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=384"
+  },
+  "385": {
+    "id": 385,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=385"
+  },
+  "386": {
+    "id": 386,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=386"
+  },
+  "387": {
+    "id": 387,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=387"
+  },
+  "388": {
+    "id": 388,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=388"
+  },
+  "389": {
+    "id": 389,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=389"
+  },
+  "390": {
+    "id": 390,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=390"
+  },
+  "391": {
+    "id": 391,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=391"
+  },
+  "392": {
+    "id": 392,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=392"
+  },
+  "393": {
+    "id": 393,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=393"
+  },
+  "394": {
+    "id": 394,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=394"
+  },
+  "395": {
+    "id": 395,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=395"
+  },
+  "396": {
+    "id": 396,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=396"
+  },
+  "397": {
+    "id": 397,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=397"
+  },
+  "399": {
+    "id": 399,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=399"
+  },
+  "400": {
+    "id": 400,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=400"
+  },
+  "401": {
+    "id": 401,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=401"
+  },
+  "402": {
+    "id": 402,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=402"
+  },
+  "403": {
+    "id": 403,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=403"
+  },
+  "404": {
+    "id": 404,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=404"
+  },
+  "405": {
+    "id": 405,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=405"
+  },
+  "406": {
+    "id": 406,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=406"
+  },
+  "407": {
+    "id": 407,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=407"
+  },
+  "408": {
+    "id": 408,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=408"
+  },
+  "409": {
+    "id": 409,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=409"
+  },
+  "410": {
+    "id": 410,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=410"
+  },
+  "411": {
+    "id": 411,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=411"
+  },
+  "413": {
+    "id": 413,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=413"
+  },
+  "414": {
+    "id": 414,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=414"
+  },
+  "415": {
+    "id": 415,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=415"
+  },
+  "416": {
+    "id": 416,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=416"
+  },
+  "417": {
+    "id": 417,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=417"
+  },
+  "419": {
+    "id": 419,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=419"
+  },
+  "420": {
+    "id": 420,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=420"
+  },
+  "421": {
+    "id": 421,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=421"
+  },
+  "422": {
+    "id": 422,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=422"
+  },
+  "423": {
+    "id": 423,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=423"
+  },
+  "424": {
+    "id": 424,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=424"
+  },
+  "425": {
+    "id": 425,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=425"
+  },
+  "426": {
+    "id": 426,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=426"
+  },
+  "427": {
+    "id": 427,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=427"
+  },
+  "428": {
+    "id": 428,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=428"
+  },
+  "429": {
+    "id": 429,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=429"
+  },
+  "430": {
+    "id": 430,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=430"
+  },
+  "431": {
+    "id": 431,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=431"
+  },
+  "432": {
+    "id": 432,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=432"
+  },
+  "433": {
+    "id": 433,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=433"
+  },
+  "434": {
+    "id": 434,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=434"
+  },
+  "435": {
+    "id": 435,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=435"
+  },
+  "436": {
+    "id": 436,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=436"
+  },
+  "437": {
+    "id": 437,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=437"
+  },
+  "438": {
+    "id": 438,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=438"
+  },
+  "439": {
+    "id": 439,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=439"
+  },
+  "440": {
+    "id": 440,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=440"
+  },
+  "441": {
+    "id": 441,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=441"
+  },
+  "442": {
+    "id": 442,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=442"
+  },
+  "443": {
+    "id": 443,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=443"
+  },
+  "444": {
+    "id": 444,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=444"
+  },
+  "445": {
+    "id": 445,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=445"
+  },
+  "446": {
+    "id": 446,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=446"
+  },
+  "447": {
+    "id": 447,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=447"
+  },
+  "448": {
+    "id": 448,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=448"
+  },
+  "450": {
+    "id": 450,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=450"
+  },
+  "451": {
+    "id": 451,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=451"
+  },
+  "452": {
+    "id": 452,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=452"
+  },
+  "453": {
+    "id": 453,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=453"
+  },
+  "454": {
+    "id": 454,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=454"
+  },
+  "455": {
+    "id": 455,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=455"
+  },
+  "457": {
+    "id": 457,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=457"
+  },
+  "458": {
+    "id": 458,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=458"
+  },
+  "460": {
+    "id": 460,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=460"
+  },
+  "462": {
+    "id": 462,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=462"
+  },
+  "465": {
+    "id": 465,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=465"
+  },
+  "467": {
+    "id": 467,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=467"
+  },
+  "468": {
+    "id": 468,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=468"
+  },
+  "470": {
+    "id": 470,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=470"
+  },
+  "471": {
+    "id": 471,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=471"
+  },
+  "472": {
+    "id": 472,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=472"
+  },
+  "473": {
+    "id": 473,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=473"
+  },
+  "477": {
+    "id": 477,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=477"
+  },
+  "481": {
+    "id": 481,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=481"
+  },
+  "485": {
+    "id": 485,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=485"
+  },
+  "487": {
+    "id": 487,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=487"
+  },
+  "488": {
+    "id": 488,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=488"
+  },
+  "492": {
+    "id": 492,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=492"
+  },
+  "493": {
+    "id": 493,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=493"
+  },
+  "496": {
+    "id": 496,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=496"
+  },
+  "497": {
+    "id": 497,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=497"
+  },
+  "502": {
+    "id": 502,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=502"
+  },
+  "504": {
+    "id": 504,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=504"
+  },
+  "505": {
+    "id": 505,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=505"
+  },
+  "506": {
+    "id": 506,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=506"
+  },
+  "508": {
+    "id": 508,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=508"
+  },
+  "510": {
+    "id": 510,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=510"
+  },
+  "512": {
+    "id": 512,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=512"
+  },
+  "513": {
+    "id": 513,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=513"
+  },
+  "521": {
+    "id": 521,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=521"
+  },
+  "523": {
+    "id": 523,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=523"
+  },
+  "525": {
+    "id": 525,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=525"
+  },
+  "527": {
+    "id": 527,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=527"
+  },
+  "530": {
+    "id": 530,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=530"
+  },
+  "534": {
+    "id": 534,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=534"
+  },
+  "535": {
+    "id": 535,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=535"
+  },
+  "536": {
+    "id": 536,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=536"
+  },
+  "537": {
+    "id": 537,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=537"
+  },
+  "538": {
+    "id": 538,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=538"
+  },
+  "539": {
+    "id": 539,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=539"
+  },
+  "540": {
+    "id": 540,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=540"
+  },
+  "542": {
+    "id": 542,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=542"
+  },
+  "543": {
+    "id": 543,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=543"
+  },
+  "544": {
+    "id": 544,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=544"
+  },
+  "545": {
+    "id": 545,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=545"
+  },
+  "546": {
+    "id": 546,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=546"
+  },
+  "547": {
+    "id": 547,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=547"
+  },
+  "548": {
+    "id": 548,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=548"
+  },
+  "549": {
+    "id": 549,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=549"
+  },
+  "550": {
+    "id": 550,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=550"
+  },
+  "551": {
+    "id": 551,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=551"
+  },
+  "552": {
+    "id": 552,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=552"
+  },
+  "553": {
+    "id": 553,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=553"
+  },
+  "554": {
+    "id": 554,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=554"
+  },
+  "556": {
+    "id": 556,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=556"
+  },
+  "557": {
+    "id": 557,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=557"
+  },
+  "558": {
+    "id": 558,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=558"
+  },
+  "559": {
+    "id": 559,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=559"
+  },
+  "560": {
+    "id": 560,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=560"
+  },
+  "561": {
+    "id": 561,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=561"
+  },
+  "562": {
+    "id": 562,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=562"
+  },
+  "563": {
+    "id": 563,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=563"
+  },
+  "564": {
+    "id": 564,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=564"
+  },
+  "565": {
+    "id": 565,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=565"
+  },
+  "566": {
+    "id": 566,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=566"
+  },
+  "567": {
+    "id": 567,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=567"
+  },
+  "568": {
+    "id": 568,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=568"
+  },
+  "569": {
+    "id": 569,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=569"
+  },
+  "570": {
+    "id": 570,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=570"
+  },
+  "571": {
+    "id": 571,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=571"
+  },
+  "572": {
+    "id": 572,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=572"
+  },
+  "573": {
+    "id": 573,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=573"
+  },
+  "574": {
+    "id": 574,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=574"
+  },
+  "575": {
+    "id": 575,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=575"
+  },
+  "576": {
+    "id": 576,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=576"
+  },
+  "577": {
+    "id": 577,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=577"
+  },
+  "578": {
+    "id": 578,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=578"
+  },
+  "579": {
+    "id": 579,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=579"
+  },
+  "580": {
+    "id": 580,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=580"
+  },
+  "581": {
+    "id": 581,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=581"
+  },
+  "582": {
+    "id": 582,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=582"
+  },
+  "583": {
+    "id": 583,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=583"
+  },
+  "584": {
+    "id": 584,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=584"
+  },
+  "585": {
+    "id": 585,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=585"
+  },
+  "586": {
+    "id": 586,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=586"
+  },
+  "587": {
+    "id": 587,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=587"
+  },
+  "588": {
+    "id": 588,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=588"
+  },
+  "589": {
+    "id": 589,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=589"
+  },
+  "590": {
+    "id": 590,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=590"
+  },
+  "591": {
+    "id": 591,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=591"
+  },
+  "592": {
+    "id": 592,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=592"
+  },
+  "593": {
+    "id": 593,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=593"
+  },
+  "594": {
+    "id": 594,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=594"
+  },
+  "595": {
+    "id": 595,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=595"
+  },
+  "596": {
+    "id": 596,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=596"
+  },
+  "597": {
+    "id": 597,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=597"
+  },
+  "598": {
+    "id": 598,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=598"
+  },
+  "599": {
+    "id": 599,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=599"
+  },
+  "600": {
+    "id": 600,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=600"
+  },
+  "602": {
+    "id": 602,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=602"
+  },
+  "603": {
+    "id": 603,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=603"
+  },
+  "604": {
+    "id": 604,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=604"
+  },
+  "605": {
+    "id": 605,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=605"
+  },
+  "606": {
+    "id": 606,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=606"
+  },
+  "607": {
+    "id": 607,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=607"
+  },
+  "608": {
+    "id": 608,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=608"
+  },
+  "609": {
+    "id": 609,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=609"
+  },
+  "610": {
+    "id": 610,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=610"
+  },
+  "611": {
+    "id": 611,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=611"
+  },
+  "612": {
+    "id": 612,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=612"
+  },
+  "613": {
+    "id": 613,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=613"
+  },
+  "614": {
+    "id": 614,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=614"
+  },
+  "615": {
+    "id": 615,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=615"
+  },
+  "616": {
+    "id": 616,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=616"
+  },
+  "617": {
+    "id": 617,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=617"
+  },
+  "618": {
+    "id": 618,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=618"
+  },
+  "619": {
+    "id": 619,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=619"
+  },
+  "620": {
+    "id": 620,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=620"
+  },
+  "621": {
+    "id": 621,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=621"
+  },
+  "622": {
+    "id": 622,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=622"
+  },
+  "623": {
+    "id": 623,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=623"
+  },
+  "624": {
+    "id": 624,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=624"
+  },
+  "625": {
+    "id": 625,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=625"
+  },
+  "626": {
+    "id": 626,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=626"
+  },
+  "627": {
+    "id": 627,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=627"
+  },
+  "628": {
+    "id": 628,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=628"
+  },
+  "629": {
+    "id": 629,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=629"
+  },
+  "630": {
+    "id": 630,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=630"
+  },
+  "632": {
+    "id": 632,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=632"
+  },
+  "633": {
+    "id": 633,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=633"
+  },
+  "634": {
+    "id": 634,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=634"
+  },
+  "635": {
+    "id": 635,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=635"
+  },
+  "636": {
+    "id": 636,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=636"
+  },
+  "637": {
+    "id": 637,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=637"
+  },
+  "638": {
+    "id": 638,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=638"
+  },
+  "639": {
+    "id": 639,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=639"
+  },
+  "641": {
+    "id": 641,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=641"
+  },
+  "642": {
+    "id": 642,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=642"
+  },
+  "643": {
+    "id": 643,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=643"
+  },
+  "644": {
+    "id": 644,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=644"
+  },
+  "645": {
+    "id": 645,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=645"
+  },
+  "646": {
+    "id": 646,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=646"
+  },
+  "647": {
+    "id": 647,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=647"
+  },
+  "648": {
+    "id": 648,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=648"
+  },
+  "649": {
+    "id": 649,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=649"
+  },
+  "650": {
+    "id": 650,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=650"
+  },
+  "651": {
+    "id": 651,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=651"
+  },
+  "652": {
+    "id": 652,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=652"
+  },
+  "653": {
+    "id": 653,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=653"
+  },
+  "654": {
+    "id": 654,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=654"
+  },
+  "656": {
+    "id": 656,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=656"
+  },
+  "657": {
+    "id": 657,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=657"
+  },
+  "658": {
+    "id": 658,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=658"
+  },
+  "659": {
+    "id": 659,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=659"
+  },
+  "660": {
+    "id": 660,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=660"
+  },
+  "661": {
+    "id": 661,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=661"
+  },
+  "662": {
+    "id": 662,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=662"
+  },
+  "663": {
+    "id": 663,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=663"
+  },
+  "666": {
+    "id": 666,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=666"
+  },
+  "668": {
+    "id": 668,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=668"
+  },
+  "669": {
+    "id": 669,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=669"
+  },
+  "672": {
+    "id": 672,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=672"
+  },
+  "673": {
+    "id": 673,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=673"
+  },
+  "674": {
+    "id": 674,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=674"
+  },
+  "675": {
+    "id": 675,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=675"
+  },
+  "676": {
+    "id": 676,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=676"
+  },
+  "677": {
+    "id": 677,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=677"
+  },
+  "678": {
+    "id": 678,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=678"
+  },
+  "679": {
+    "id": 679,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=679"
+  },
+  "680": {
+    "id": 680,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=680"
+  },
+  "681": {
+    "id": 681,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=681"
+  },
+  "682": {
+    "id": 682,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=682"
+  },
+  "683": {
+    "id": 683,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=683"
+  },
+  "685": {
+    "id": 685,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=685"
+  },
+  "686": {
+    "id": 686,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=686"
+  },
+  "687": {
+    "id": 687,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=687"
+  },
+  "688": {
+    "id": 688,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=688"
+  },
+  "689": {
+    "id": 689,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=689"
+  },
+  "690": {
+    "id": 690,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=690"
+  },
+  "691": {
+    "id": 691,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=691"
+  },
+  "692": {
+    "id": 692,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=692"
+  },
+  "693": {
+    "id": 693,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=693"
+  },
+  "694": {
+    "id": 694,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=694"
+  },
+  "695": {
+    "id": 695,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=695"
+  },
+  "697": {
+    "id": 697,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=697"
+  },
+  "698": {
+    "id": 698,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=698"
+  },
+  "699": {
+    "id": 699,
+    "name": null,
+    "url": "https://www.aikstats.se/player.php?id=699"
+  }
+}
