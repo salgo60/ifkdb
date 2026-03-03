@@ -199,8 +199,8 @@ def generate_report(main_category):
     today_str = datetime.now().strftime("%Y%m%d")
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
 
-    report_filename = f"rapport_{today_str}.html"
-    qs_filename = f"quickstatements_P54_missing_{today_str}.txt"
+    report_filename = f"data/rapport_{today_str}.html"
+    qs_filename = f"data/quickstatements_P54_missing_{today_str}.txt"
 
     quickstatements = []
     html_blocks = ""
