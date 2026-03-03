@@ -1,0 +1,3104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IFKDB – Wikidata matchrapport</title>
+
+<style>
+body { font-family: Arial, sans-serif; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 6px; }
+th { background-color: #f2f2f2; cursor: pointer; }
+tr:nth-child(even) { background-color: #f9f9f9; }
+.duplicate { background-color: #ffe0e0; }
+.summary { margin-bottom: 20px; }
+a { text-decoration: none; color: #0645AD; }
+</style>
+
+<script>
+// Enkel tabellsortering
+function sortTable(n) {
+  var table = document.getElementById("reportTable");
+  var rows = Array.from(table.rows).slice(1);
+  var asc = table.getAttribute("data-sort") !== "asc";
+  rows.sort(function(a, b) {
+    var x = a.cells[n].innerText.toLowerCase();
+    var y = b.cells[n].innerText.toLowerCase();
+    return asc ? x.localeCompare(y) : y.localeCompare(x);
+  });
+  table.setAttribute("data-sort", asc ? "asc" : "desc");
+  rows.forEach(row => table.appendChild(row));
+}
+</script>
+
+</head>
+<body>
+
+<h2>IFKDB → Wikidata matchrapport</h2>
+
+<div class="summary">
+<p><strong>Totalt:</strong> 1013</p>
+<p><strong>Matchade:</strong> 579</p>
+<p><strong>Saknade:</strong> 434</p>
+<p><strong>Matchningsgrad:</strong> 57.16%</p>
+<p><strong>GitHub Issue:</strong>
+<a href="https://github.com/salgo60/ifkdb/issues/32" target="_blank">
+Issue #32
+</a></p>
+</div>
+
+<table id="reportTable" data-sort="asc">
+<tr>
+<th onclick="sortTable(0)">ID</th>
+<th onclick="sortTable(1)">Namn</th>
+<th>IFKDB</th>
+<th>Wikidata-sök</th>
+</tr>
+
+<tr class="">
+<td>Jan-Åberg_736</td>
+<td>Jan Åberg</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Åberg_736" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20%C3%85berg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mustapha-Adio+Ojora_961</td>
+<td>Ojora Mustapha Adio</td>
+<td><a href="https://ifkdb.se/spelare/Mustapha-Adio+Ojora_961" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ojora%20Mustapha%20Adio" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thomas-Ågren_737</td>
+<td>Thomas Ågren</td>
+<td><a href="https://ifkdb.se/spelare/Thomas-Ågren_737" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thomas%20%C3%85gren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Anders-Ahlberg_4</td>
+<td>Anders Ahlberg</td>
+<td><a href="https://ifkdb.se/spelare/Anders-Ahlberg_4" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Anders%20Ahlberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mohanad-Al-Jarah_977</td>
+<td>Mohanad Al-Jarah</td>
+<td><a href="https://ifkdb.se/spelare/Mohanad-Al-Jarah_977" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mohanad%20Al-Jarah" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leif-Albinsson_7</td>
+<td>Leif Albinsson</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Albinsson_7" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Albinsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rein-Albo_8</td>
+<td>Rein Albo</td>
+<td><a href="https://ifkdb.se/spelare/Rein-Albo_8" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rein%20Albo" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ruben-Alexandersson_10</td>
+<td>Ruben Alexandersson</td>
+<td><a href="https://ifkdb.se/spelare/Ruben-Alexandersson_10" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ruben%20Alexandersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunde-Algebäck_12</td>
+<td>Gunde Algebäck</td>
+<td><a href="https://ifkdb.se/spelare/Gunde-Algebäck_12" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunde%20Algeb%C3%A4ck" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Saidou-Alioum_1001</td>
+<td>Saidou Alioum</td>
+<td><a href="https://ifkdb.se/spelare/Saidou-Alioum_1001" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Saidou%20Alioum" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Henry-Almborg_13</td>
+<td>Henry Almborg</td>
+<td><a href="https://ifkdb.se/spelare/Henry-Almborg_13" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Henry%20Almborg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Henry-Almén_14</td>
+<td>Henry Almén</td>
+<td><a href="https://ifkdb.se/spelare/Henry-Almén_14" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Henry%20Alm%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sixten-Ammerfelt+(Andersson)_66</td>
+<td>Sixten Ammerfelt</td>
+<td><a href="https://ifkdb.se/spelare/Sixten-Ammerfelt+(Andersson)_66" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sixten%20Ammerfelt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Anders-Andersson_174</td>
+<td>Anders Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Anders-Andersson_174" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Anders%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arne-Andersson_21</td>
+<td>Arne Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Arne-Andersson_21" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arne%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arnold-Andersson_22</td>
+<td>Arnold Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Arnold-Andersson_22" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arnold%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Clas-Andersson_41</td>
+<td>Clas Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Clas-Andersson_41" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Clas%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Fredrik-Andersson_34</td>
+<td>Fredrik Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Fredrik-Andersson_34" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Fredrik%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Georg-Andersson_35</td>
+<td>Georg Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Georg-Andersson_35" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Georg%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ivar-Andersson_45</td>
+<td>Ivar Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Ivar-Andersson_45" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ivar%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>John-Andersson_912</td>
+<td>John Andersson</td>
+<td><a href="https://ifkdb.se/spelare/John-Andersson_912" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=John%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>John-Andersson_46</td>
+<td>John Andersson</td>
+<td><a href="https://ifkdb.se/spelare/John-Andersson_46" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=John%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Karl-Andersson_952</td>
+<td>Karl Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Andersson_952" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Karl-Andersson_48</td>
+<td>Karl Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Andersson_48" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kent-Andersson_50</td>
+<td>Kent Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Kent-Andersson_50" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kent%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kevin-Andersson_898</td>
+<td>Kevin Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Kevin-Andersson_898" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kevin%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Andersson_51</td>
+<td>Lars Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Andersson_51" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mikael-Andersson_750</td>
+<td>Mikael Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Mikael-Andersson_750" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mikael%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oscar-Andersson_58</td>
+<td>Oscar Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Oscar-Andersson_58" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oscar%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Peter-Andersson_61</td>
+<td>Peter Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Peter-Andersson_61" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Peter%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Raymond-Andersson_62</td>
+<td>Raymond Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Raymond-Andersson_62" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Raymond%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Roger-Andersson_64</td>
+<td>Roger Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Roger-Andersson_64" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roger%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Andersson_924</td>
+<td>Rolf Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Andersson_924" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Stefan-Andersson_67</td>
+<td>Stefan Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Stefan-Andersson_67" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Stefan%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Stellan-Andersson_68</td>
+<td>Stellan Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Stellan-Andersson_68" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Stellan%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Tage-Andersson_70</td>
+<td>Tage Andersson</td>
+<td><a href="https://ifkdb.se/spelare/Tage-Andersson_70" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Tage%20Andersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Conny-Andreasson_76</td>
+<td>Conny Andreasson</td>
+<td><a href="https://ifkdb.se/spelare/Conny-Andreasson_76" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Conny%20Andreasson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kenny-Andrén_77</td>
+<td>Kenny Andrén</td>
+<td><a href="https://ifkdb.se/spelare/Kenny-Andrén_77" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kenny%20Andr%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arne-Appelgren_80</td>
+<td>Arne Appelgren</td>
+<td><a href="https://ifkdb.se/spelare/Arne-Appelgren_80" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arne%20Appelgren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Joel-Appelgren_81</td>
+<td>Joel Appelgren</td>
+<td><a href="https://ifkdb.se/spelare/Joel-Appelgren_81" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Joel%20Appelgren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Erik-Arvelin_84</td>
+<td>Lars-Erik Arvelin</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Erik-Arvelin_84" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars-Erik%20Arvelin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Nicklas-Asp_752</td>
+<td>Nicklas Asp</td>
+<td><a href="https://ifkdb.se/spelare/Nicklas-Asp_752" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Nicklas%20Asp" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Vilgot-Aspengren_85</td>
+<td>Vilgot Aspengren</td>
+<td><a href="https://ifkdb.se/spelare/Vilgot-Aspengren_85" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Vilgot%20Aspengren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kenth-Augustsson_87</td>
+<td>Kenth Augustsson</td>
+<td><a href="https://ifkdb.se/spelare/Kenth-Augustsson_87" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kenth%20Augustsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Elis-Barlind_983</td>
+<td>Elis Barlind</td>
+<td><a href="https://ifkdb.se/spelare/Elis-Barlind_983" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Elis%20Barlind" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Bender_90</td>
+<td>Jan Bender</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Bender_90" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Bender" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Åke-Bengtsson_95</td>
+<td>Åke Bengtsson</td>
+<td><a href="https://ifkdb.se/spelare/Åke-Bengtsson_95" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=%C3%85ke%20Bengtsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sture-Bengtsson_94</td>
+<td>Sture Bengtsson</td>
+<td><a href="https://ifkdb.se/spelare/Sture-Bengtsson_94" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sture%20Bengtsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kent-Berg_99</td>
+<td>Kent Berg</td>
+<td><a href="https://ifkdb.se/spelare/Kent-Berg_99" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kent%20Berg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hans-Bergendahl_100</td>
+<td>Hans Bergendahl</td>
+<td><a href="https://ifkdb.se/spelare/Hans-Bergendahl_100" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hans%20Bergendahl" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Fred-Berglin_908</td>
+<td>Fred Berglin</td>
+<td><a href="https://ifkdb.se/spelare/Fred-Berglin_908" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Fred%20Berglin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Olof-Berglund_103</td>
+<td>Olof Berglund</td>
+<td><a href="https://ifkdb.se/spelare/Olof-Berglund_103" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Olof%20Berglund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Evert-Bergman_104</td>
+<td>Evert Bergman</td>
+<td><a href="https://ifkdb.se/spelare/Evert-Bergman_104" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Evert%20Bergman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ralph-Bergström_108</td>
+<td>Ralph Bergström</td>
+<td><a href="https://ifkdb.se/spelare/Ralph-Bergström_108" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ralph%20Bergstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Harry-Berndtsson_112</td>
+<td>Harry Berndtsson</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Berndtsson_112" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Berndtsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Harry-Berndtsson_923</td>
+<td>Harry Berndtsson</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Berndtsson_923" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Berndtsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Per-Olof-Berndtsson_114</td>
+<td>Per-Olof Berndtsson</td>
+<td><a href="https://ifkdb.se/spelare/Per-Olof-Berndtsson_114" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Per-Olof%20Berndtsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Algot-Berntsson_113</td>
+<td>Algot Berntsson</td>
+<td><a href="https://ifkdb.se/spelare/Algot-Berntsson_113" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Algot%20Berntsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Bertilsson_115</td>
+<td>Bengt Bertilsson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Bertilsson_115" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Bertilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bill-Björklund_117</td>
+<td>Bill Björklund</td>
+<td><a href="https://ifkdb.se/spelare/Bill-Björklund_117" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bill%20Bj%C3%B6rklund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sam-Bjur_116</td>
+<td>Sam Bjur</td>
+<td><a href="https://ifkdb.se/spelare/Sam-Bjur_116" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sam%20Bjur" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ralf-Blom_120</td>
+<td>Ralf Blom</td>
+<td><a href="https://ifkdb.se/spelare/Ralf-Blom_120" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ralf%20Blom" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Blomqvist_123</td>
+<td>Rolf Blomqvist</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Blomqvist_123" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Blomqvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hans-Bomb_125</td>
+<td>Hans Bomb</td>
+<td><a href="https://ifkdb.se/spelare/Hans-Bomb_125" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hans%20Bomb" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Alfons-Borén_982</td>
+<td>Alfons Borén</td>
+<td><a href="https://ifkdb.se/spelare/Alfons-Borén_982" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Alfons%20Bor%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Åke-Börjesson_138</td>
+<td>Åke Börjesson</td>
+<td><a href="https://ifkdb.se/spelare/Åke-Börjesson_138" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=%C3%85ke%20B%C3%B6rjesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Borssén_127</td>
+<td>Rolf Borssén</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Borssén_127" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Borss%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Roberth-Börve_139</td>
+<td>Roberth Börve</td>
+<td><a href="https://ifkdb.se/spelare/Roberth-Börve_139" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roberth%20B%C3%B6rve" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Branting_128</td>
+<td>Harry Branting</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Branting_128" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Branting" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oliwer-Brodin_962</td>
+<td>Oliwer Brodin</td>
+<td><a href="https://ifkdb.se/spelare/Oliwer-Brodin_962" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oliwer%20Brodin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Andreas-Brunbäck_131</td>
+<td>Andreas Brunbäck</td>
+<td><a href="https://ifkdb.se/spelare/Andreas-Brunbäck_131" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Andreas%20Brunb%C3%A4ck" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hans-Brunbäck_132</td>
+<td>Hans Brunbäck</td>
+<td><a href="https://ifkdb.se/spelare/Hans-Brunbäck_132" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hans%20Brunb%C3%A4ck" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Benny-Canefur_153</td>
+<td>Benny Canefur</td>
+<td><a href="https://ifkdb.se/spelare/Benny-Canefur_153" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Benny%20Canefur" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sören-Canefur_141</td>
+<td>Sören Canefur</td>
+<td><a href="https://ifkdb.se/spelare/Sören-Canefur_141" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=S%C3%B6ren%20Canefur" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Alexander-Carlsson_1011</td>
+<td>Alexander Carlsson</td>
+<td><a href="https://ifkdb.se/spelare/Alexander-Carlsson_1011" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Alexander%20Carlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Carlsson_144</td>
+<td>Bengt Carlsson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Carlsson_144" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Carlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Carlsson_146</td>
+<td>Erik Carlsson</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Carlsson_146" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Carlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Carlsson_147</td>
+<td>Jan Carlsson</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Carlsson_147" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Carlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>John-Carlsson_378</td>
+<td>John Carlsson</td>
+<td><a href="https://ifkdb.se/spelare/John-Carlsson_378" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=John%20Carlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Carlsson_381</td>
+<td>Lennart Carlsson</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Carlsson_381" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Carlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Carlstedt+(Johansson)_329</td>
+<td>Jan Carlstedt</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Carlstedt+(Johansson)_329" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Carlstedt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Viktor-Carlund_1003</td>
+<td>Viktor Carlund</td>
+<td><a href="https://ifkdb.se/spelare/Viktor-Carlund_1003" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Viktor%20Carlund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Tage-Christoffersson_155</td>
+<td>Tage Christoffersson</td>
+<td><a href="https://ifkdb.se/spelare/Tage-Christoffersson_155" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Tage%20Christoffersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leif-Claesson_156</td>
+<td>Leif Claesson</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Claesson_156" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Claesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rune-Claesson_158</td>
+<td>Rune Claesson</td>
+<td><a href="https://ifkdb.se/spelare/Rune-Claesson_158" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rune%20Claesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Tiago-Coimbra_1010</td>
+<td>Tiago Coimbra</td>
+<td><a href="https://ifkdb.se/spelare/Tiago-Coimbra_1010" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Tiago%20Coimbra" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Dahlberg_161</td>
+<td>Lennart Dahlberg</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Dahlberg_161" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Dahlberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Fredrik-Dahlqvist_162</td>
+<td>Fredrik Dahlqvist</td>
+<td><a href="https://ifkdb.se/spelare/Fredrik-Dahlqvist_162" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Fredrik%20Dahlqvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Danielsson_164</td>
+<td>Lennart Danielsson</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Danielsson_164" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Danielsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Danielsson_167</td>
+<td>Sven Danielsson</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Danielsson_167" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Danielsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Tord-Dubar_169</td>
+<td>Tord Dubar</td>
+<td><a href="https://ifkdb.se/spelare/Tord-Dubar_169" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Tord%20Dubar" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sten-Edström_172</td>
+<td>Sten Edström</td>
+<td><a href="https://ifkdb.se/spelare/Sten-Edström_172" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sten%20Edstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Eklöf_177</td>
+<td>Rolf Eklöf</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Eklöf_177" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Ekl%C3%B6f" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Håkan-Eklund_176</td>
+<td>Håkan Eklund</td>
+<td><a href="https://ifkdb.se/spelare/Håkan-Eklund_176" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=H%C3%A5kan%20Eklund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Björn-Ekman_178</td>
+<td>Björn Ekman</td>
+<td><a href="https://ifkdb.se/spelare/Björn-Ekman_178" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bj%C3%B6rn%20Ekman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Carl-Ekman_179</td>
+<td>Carl Ekman</td>
+<td><a href="https://ifkdb.se/spelare/Carl-Ekman_179" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Carl%20Ekman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Josef-El+Dana_182</td>
+<td>Dana Josef El</td>
+<td><a href="https://ifkdb.se/spelare/Josef-El+Dana_182" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Dana%20Josef%20El" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Göran-Elovsson_184</td>
+<td>Göran Elovsson</td>
+<td><a href="https://ifkdb.se/spelare/Göran-Elovsson_184" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G%C3%B6ran%20Elovsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ove-Engström_186</td>
+<td>Ove Engström</td>
+<td><a href="https://ifkdb.se/spelare/Ove-Engström_186" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ove%20Engstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erhan-Erdogan_775</td>
+<td>Erhan Erdogan</td>
+<td><a href="https://ifkdb.se/spelare/Erhan-Erdogan_775" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erhan%20Erdogan" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kurt-Ericsson_188</td>
+<td>Kurt Ericsson</td>
+<td><a href="https://ifkdb.se/spelare/Kurt-Ericsson_188" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kurt%20Ericsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Daniel-Eriksson_190</td>
+<td>Daniel Eriksson</td>
+<td><a href="https://ifkdb.se/spelare/Daniel-Eriksson_190" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Daniel%20Eriksson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gösta-Eriksson_192</td>
+<td>Gösta Eriksson</td>
+<td><a href="https://ifkdb.se/spelare/Gösta-Eriksson_192" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G%C3%B6sta%20Eriksson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Erik-Eriksson_194</td>
+<td>Lars-Erik Eriksson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Erik-Eriksson_194" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars-Erik%20Eriksson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Eriksson_199</td>
+<td>Rolf Eriksson</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Eriksson_199" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Eriksson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gabriel-Ersoy_1008</td>
+<td>Gabriel Ersoy</td>
+<td><a href="https://ifkdb.se/spelare/Gabriel-Ersoy_1008" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gabriel%20Ersoy" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Fagrell_204</td>
+<td>Sven Fagrell</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Fagrell_204" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Fagrell" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Stig-Falk_205</td>
+<td>Stig Falk</td>
+<td><a href="https://ifkdb.se/spelare/Stig-Falk_205" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Stig%20Falk" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Falkenström_206</td>
+<td>Lennart Falkenström</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Falkenström_206" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Falkenstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Emil-Fasth_1000</td>
+<td>Emil Fasth</td>
+<td><a href="https://ifkdb.se/spelare/Emil-Fasth_1000" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Emil%20Fasth" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunnar-Ferm_209</td>
+<td>Gunnar Ferm</td>
+<td><a href="https://ifkdb.se/spelare/Gunnar-Ferm_209" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunnar%20Ferm" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Fernell_210</td>
+<td>Lars Fernell</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Fernell_210" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Fernell" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Douglas-Flobrant_211</td>
+<td>Douglas Flobrant</td>
+<td><a href="https://ifkdb.se/spelare/Douglas-Flobrant_211" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Douglas%20Flobrant" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Fredrik-Folcker_213</td>
+<td>Fredrik Folcker</td>
+<td><a href="https://ifkdb.se/spelare/Fredrik-Folcker_213" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Fredrik%20Folcker" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bertil-Forsberg_214</td>
+<td>Bertil Forsberg</td>
+<td><a href="https://ifkdb.se/spelare/Bertil-Forsberg_214" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bertil%20Forsberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>José-Fortes_217</td>
+<td>José Fortes</td>
+<td><a href="https://ifkdb.se/spelare/José-Fortes_217" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jos%C3%A9%20Fortes" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Folke-Franzén_218</td>
+<td>Folke Franzén</td>
+<td><a href="https://ifkdb.se/spelare/Folke-Franzén_218" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Folke%20Franz%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Georg-Fredriksson_219</td>
+<td>Georg Fredriksson</td>
+<td><a href="https://ifkdb.se/spelare/Georg-Fredriksson_219" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Georg%20Fredriksson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Friberg_221</td>
+<td>Harry Friberg</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Friberg_221" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Friberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Henry-Gedda_226</td>
+<td>Henry Gedda</td>
+<td><a href="https://ifkdb.se/spelare/Henry-Gedda_226" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Henry%20Gedda" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mats-Gerdtham+(Johansson)_336</td>
+<td>Mats Gerdtham</td>
+<td><a href="https://ifkdb.se/spelare/Mats-Gerdtham+(Johansson)_336" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mats%20Gerdtham" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Glader_227</td>
+<td>Erik Glader</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Glader_227" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Glader" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kurt-Göransson_244</td>
+<td>Kurt Göransson</td>
+<td><a href="https://ifkdb.se/spelare/Kurt-Göransson_244" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kurt%20G%C3%B6ransson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Helge-Grönvall_235</td>
+<td>Helge Grönvall</td>
+<td><a href="https://ifkdb.se/spelare/Helge-Grönvall_235" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Helge%20Gr%C3%B6nvall" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sune-Grundén_711</td>
+<td>Sune Grundén</td>
+<td><a href="https://ifkdb.se/spelare/Sune-Grundén_711" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sune%20Grund%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ingvar-Gunnesson_236</td>
+<td>Ingvar Gunnesson</td>
+<td><a href="https://ifkdb.se/spelare/Ingvar-Gunnesson_236" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ingvar%20Gunnesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Joel-Gustafsson_784</td>
+<td>Joel Gustafsson</td>
+<td><a href="https://ifkdb.se/spelare/Joel-Gustafsson_784" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Joel%20Gustafsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oskar-Gustafsson_431</td>
+<td>Oskar Gustafsson</td>
+<td><a href="https://ifkdb.se/spelare/Oskar-Gustafsson_431" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oskar%20Gustafsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ove-Gustafsson_239</td>
+<td>Ove Gustafsson</td>
+<td><a href="https://ifkdb.se/spelare/Ove-Gustafsson_239" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ove%20Gustafsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Åke-Gustavsson_242</td>
+<td>Åke Gustavsson</td>
+<td><a href="https://ifkdb.se/spelare/Åke-Gustavsson_242" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=%C3%85ke%20Gustavsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>David-Gutierrez+Arvidsson_783</td>
+<td>Arvidsson David Gutierrez</td>
+<td><a href="https://ifkdb.se/spelare/David-Gutierrez+Arvidsson_783" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arvidsson%20David%20Gutierrez" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Hafstrand_246</td>
+<td>Jan Hafstrand</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Hafstrand_246" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Hafstrand" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Hagberg_247</td>
+<td>Harry Hagberg</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Hagberg_247" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Hagberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Per-Hägglund_292</td>
+<td>Per Hägglund</td>
+<td><a href="https://ifkdb.se/spelare/Per-Hägglund_292" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Per%20H%C3%A4gglund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hans-Håkansson_290</td>
+<td>Hans Håkansson</td>
+<td><a href="https://ifkdb.se/spelare/Hans-Håkansson_290" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hans%20H%C3%A5kansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Nils-Håkansson_291</td>
+<td>Nils Håkansson</td>
+<td><a href="https://ifkdb.se/spelare/Nils-Håkansson_291" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Nils%20H%C3%A5kansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gustaf-Hansson_250</td>
+<td>Gustaf Hansson</td>
+<td><a href="https://ifkdb.se/spelare/Gustaf-Hansson_250" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gustaf%20Hansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kjell-Hansson_252</td>
+<td>Kjell Hansson</td>
+<td><a href="https://ifkdb.se/spelare/Kjell-Hansson_252" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kjell%20Hansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thomas-Hansson_254</td>
+<td>Thomas Hansson</td>
+<td><a href="https://ifkdb.se/spelare/Thomas-Hansson_254" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thomas%20Hansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jasin-Hasani_978</td>
+<td>Jasin Hasani</td>
+<td><a href="https://ifkdb.se/spelare/Jasin-Hasani_978" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jasin%20Hasani" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mats-Hedén_258</td>
+<td>Mats Hedén</td>
+<td><a href="https://ifkdb.se/spelare/Mats-Hedén_258" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mats%20Hed%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Melwin-Hedman_998</td>
+<td>Melwin Hedman</td>
+<td><a href="https://ifkdb.se/spelare/Melwin-Hedman_998" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Melwin%20Hedman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hampus-Heed_956</td>
+<td>Hampus Heed</td>
+<td><a href="https://ifkdb.se/spelare/Hampus-Heed_956" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hampus%20Heed" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gösta-Heinefeldt+(Svensson)_659</td>
+<td>Gösta Heinefeldt</td>
+<td><a href="https://ifkdb.se/spelare/Gösta-Heinefeldt+(Svensson)_659" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G%C3%B6sta%20Heinefeldt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Anders-Helgesson_261</td>
+<td>Anders Helgesson</td>
+<td><a href="https://ifkdb.se/spelare/Anders-Helgesson_261" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Anders%20Helgesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Hellberg_262</td>
+<td>Harry Hellberg</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Hellberg_262" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Hellberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Torbjörn-Hellström_263</td>
+<td>Torbjörn Hellström</td>
+<td><a href="https://ifkdb.se/spelare/Torbjörn-Hellström_263" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Torbj%C3%B6rn%20Hellstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ove-Helmér_265</td>
+<td>Ove Helmér</td>
+<td><a href="https://ifkdb.se/spelare/Ove-Helmér_265" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ove%20Helm%C3%A9r" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Wilmer-Henriksson_1007</td>
+<td>Wilmer Henriksson</td>
+<td><a href="https://ifkdb.se/spelare/Wilmer-Henriksson_1007" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Wilmer%20Henriksson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Daniel-Hoffmann_275</td>
+<td>Daniel Hoffmann</td>
+<td><a href="https://ifkdb.se/spelare/Daniel-Hoffmann_275" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Daniel%20Hoffmann" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oskar-Högberg_718</td>
+<td>Oskar Högberg</td>
+<td><a href="https://ifkdb.se/spelare/Oskar-Högberg_718" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oskar%20H%C3%B6gberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Patrik-Höglund_294</td>
+<td>Patrik Höglund</td>
+<td><a href="https://ifkdb.se/spelare/Patrik-Höglund_294" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Patrik%20H%C3%B6glund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Nils-Holmén_913</td>
+<td>Nils Holmén</td>
+<td><a href="https://ifkdb.se/spelare/Nils-Holmén_913" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Nils%20Holm%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Marcus-Holmqvist_905</td>
+<td>Marcus Holmqvist</td>
+<td><a href="https://ifkdb.se/spelare/Marcus-Holmqvist_905" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Marcus%20Holmqvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Allan-Holmstedt+(Bengtsson)_96</td>
+<td>Allan Holmstedt</td>
+<td><a href="https://ifkdb.se/spelare/Allan-Holmstedt+(Bengtsson)_96" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Allan%20Holmstedt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bertil-Hultin_287</td>
+<td>Bertil Hultin</td>
+<td><a href="https://ifkdb.se/spelare/Bertil-Hultin_287" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bertil%20Hultin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Jacobsson_298</td>
+<td>Sven Jacobsson</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Jacobsson_298" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Jacobsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arne-Jansson_301</td>
+<td>Arne Jansson</td>
+<td><a href="https://ifkdb.se/spelare/Arne-Jansson_301" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arne%20Jansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hilding-Jansson_917</td>
+<td>Hilding Jansson</td>
+<td><a href="https://ifkdb.se/spelare/Hilding-Jansson_917" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hilding%20Jansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Karl-Gunnar-Jansson_303</td>
+<td>Karl-Gunnar Jansson</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Gunnar-Jansson_303" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl-Gunnar%20Jansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kent-Jansson_304</td>
+<td>Kent Jansson</td>
+<td><a href="https://ifkdb.se/spelare/Kent-Jansson_304" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kent%20Jansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Per-Åke-Jansson_305</td>
+<td>Per-Åke Jansson</td>
+<td><a href="https://ifkdb.se/spelare/Per-Åke-Jansson_305" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Per-%C3%85ke%20Jansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ragnar-Jansson_953</td>
+<td>Ragnar Jansson</td>
+<td><a href="https://ifkdb.se/spelare/Ragnar-Jansson_953" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ragnar%20Jansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Magnus-Jareflo_307</td>
+<td>Magnus Jareflo</td>
+<td><a href="https://ifkdb.se/spelare/Magnus-Jareflo_307" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Magnus%20Jareflo" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Björn-Jarkvist_308</td>
+<td>Björn Jarkvist</td>
+<td><a href="https://ifkdb.se/spelare/Björn-Jarkvist_308" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bj%C3%B6rn%20Jarkvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Holger-Jernsten+(Johansson)_1002</td>
+<td>Holger Jernsten</td>
+<td><a href="https://ifkdb.se/spelare/Holger-Jernsten+(Johansson)_1002" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Holger%20Jernsten" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Johannesson_309</td>
+<td>Bengt Johannesson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Johannesson_309" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Johannesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Johannesson_310</td>
+<td>Lars Johannesson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Johannesson_310" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Johannesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leif-Johannisson_311</td>
+<td>Leif Johannisson</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Johannisson_311" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Johannisson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Johansson_315</td>
+<td>Bengt Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Johansson_315" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Eje-Johansson_319</td>
+<td>Eje Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Eje-Johansson_319" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Eje%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Elam-Johansson_320</td>
+<td>Elam Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Elam-Johansson_320" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Elam%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Folke-Johansson_322</td>
+<td>Folke Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Folke-Johansson_322" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Folke%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Göran-Johansson_326</td>
+<td>Göran Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Göran-Johansson_326" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G%C3%B6ran%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunnar-Johansson_324</td>
+<td>Gunnar Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Gunnar-Johansson_324" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunnar%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Henry-Johansson_327</td>
+<td>Henry Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Henry-Johansson_327" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Henry%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Karl-Johansson_331</td>
+<td>Karl Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Johansson_331" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Inge-Johansson_332</td>
+<td>Lars-Inge Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Inge-Johansson_332" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars-Inge%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ove-Johansson_340</td>
+<td>Ove Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Ove-Johansson_340" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ove%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Paul-Johansson_548</td>
+<td>Paul Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Paul-Johansson_548" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Paul%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Ragnar-Johansson_342</td>
+<td>Ragnar Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Ragnar-Johansson_342" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ragnar%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Ragnar-Johansson_732</td>
+<td>Ragnar Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Ragnar-Johansson_732" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ragnar%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Rolf-Johansson_345</td>
+<td>Rolf Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Johansson_345" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Roy-Johansson_348</td>
+<td>Roy Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Roy-Johansson_348" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roy%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rune-Johansson_349</td>
+<td>Rune Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Rune-Johansson_349" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rune%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Sven-Johansson_352</td>
+<td>Sven Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Johansson_352" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Tore-Johansson_353</td>
+<td>Tore Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Tore-Johansson_353" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Tore%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Torgny-Johansson_354</td>
+<td>Torgny Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Torgny-Johansson_354" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Torgny%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Torsten-Johansson_355</td>
+<td>Torsten Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Torsten-Johansson_355" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Torsten%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Martin-Johansson+Zanjanchi_846</td>
+<td>Zanjanchi Martin Johansson</td>
+<td><a href="https://ifkdb.se/spelare/Martin-Johansson+Zanjanchi_846" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Zanjanchi%20Martin%20Johansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gisle-Johnsen_363</td>
+<td>Gisle Johnsen</td>
+<td><a href="https://ifkdb.se/spelare/Gisle-Johnsen_363" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gisle%20Johnsen" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Benny-Jonsson_360</td>
+<td>Benny Jonsson</td>
+<td><a href="https://ifkdb.se/spelare/Benny-Jonsson_360" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Benny%20Jonsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ulf-Jörnvik_366</td>
+<td>Ulf Jörnvik</td>
+<td><a href="https://ifkdb.se/spelare/Ulf-Jörnvik_366" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ulf%20J%C3%B6rnvik" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Håkan-Kahnberg_367</td>
+<td>Håkan Kahnberg</td>
+<td><a href="https://ifkdb.se/spelare/Håkan-Kahnberg_367" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=H%C3%A5kan%20Kahnberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Källberg_405</td>
+<td>Sven Källberg</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Källberg_405" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20K%C3%A4llberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Fredrik-Karlfeldt_370</td>
+<td>Fredrik Karlfeldt</td>
+<td><a href="https://ifkdb.se/spelare/Fredrik-Karlfeldt_370" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Fredrik%20Karlfeldt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arne-Karlsson_371</td>
+<td>Arne Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Arne-Karlsson_371" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arne%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Åke-Karlsson_372</td>
+<td>Bengt-Åke Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Åke-Karlsson_372" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt-%C3%85ke%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gerhard-Karlsson_368</td>
+<td>Gerhard Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Gerhard-Karlsson_368" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gerhard%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kenny-Karlsson_379</td>
+<td>Kenny Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Kenny-Karlsson_379" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kenny%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Karlsson_149</td>
+<td>Lars Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Karlsson_149" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leif-Karlsson_380</td>
+<td>Leif Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Karlsson_380" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sten-Karlsson_151</td>
+<td>Sten Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Sten-Karlsson_151" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sten%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thomas-Karlsson_385</td>
+<td>Thomas Karlsson</td>
+<td><a href="https://ifkdb.se/spelare/Thomas-Karlsson_385" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thomas%20Karlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>J.-Kennedy_388</td>
+<td>J. Kennedy</td>
+<td><a href="https://ifkdb.se/spelare/J.-Kennedy_388" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=J.%20Kennedy" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Keit-Kessander+(Pettersson)_583</td>
+<td>Keit Kessander</td>
+<td><a href="https://ifkdb.se/spelare/Keit-Kessander+(Pettersson)_583" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Keit%20Kessander" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mohib-Khalaf_963</td>
+<td>Mohib Khalaf</td>
+<td><a href="https://ifkdb.se/spelare/Mohib-Khalaf_963" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mohib%20Khalaf" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kurt-Kjellberg_391</td>
+<td>Kurt Kjellberg</td>
+<td><a href="https://ifkdb.se/spelare/Kurt-Kjellberg_391" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kurt%20Kjellberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rune-Kjellman_392</td>
+<td>Rune Kjellman</td>
+<td><a href="https://ifkdb.se/spelare/Rune-Kjellman_392" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rune%20Kjellman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arne-Knutsson_394</td>
+<td>Arne Knutsson</td>
+<td><a href="https://ifkdb.se/spelare/Arne-Knutsson_394" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arne%20Knutsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Kristensen_154</td>
+<td>Bengt Kristensen</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Kristensen_154" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Kristensen" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Åke-Kristiansson_400</td>
+<td>Åke Kristiansson</td>
+<td><a href="https://ifkdb.se/spelare/Åke-Kristiansson_400" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=%C3%85ke%20Kristiansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Albert-Kristiansson_399</td>
+<td>Albert Kristiansson</td>
+<td><a href="https://ifkdb.se/spelare/Albert-Kristiansson_399" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Albert%20Kristiansson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kjell-Lager_408</td>
+<td>Kjell Lager</td>
+<td><a href="https://ifkdb.se/spelare/Kjell-Lager_408" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kjell%20Lager" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Anders-Landgren_410</td>
+<td>Anders Landgren</td>
+<td><a href="https://ifkdb.se/spelare/Anders-Landgren_410" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Anders%20Landgren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Stig-Landgren_411</td>
+<td>Stig Landgren</td>
+<td><a href="https://ifkdb.se/spelare/Stig-Landgren_411" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Stig%20Landgren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thomas-Lansing_413</td>
+<td>Thomas Lansing</td>
+<td><a href="https://ifkdb.se/spelare/Thomas-Lansing_413" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thomas%20Lansing" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Freddie-Lantz_1005</td>
+<td>Freddie Lantz</td>
+<td><a href="https://ifkdb.se/spelare/Freddie-Lantz_1005" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Freddie%20Lantz" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Larsson_415</td>
+<td>Bengt Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Larsson_415" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Daniel-Larsson_416</td>
+<td>Daniel Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Daniel-Larsson_416" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Daniel%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Erik-Larsson_417</td>
+<td>Erik Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Larsson_417" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Erik-Larsson_207</td>
+<td>Erik Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Larsson_207" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gustaf-Larsson_414</td>
+<td>Gustaf Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Gustaf-Larsson_414" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gustaf%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Karl-Henrik-Larsson_420</td>
+<td>Karl-Henrik Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Henrik-Larsson_420" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl-Henrik%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Larsson_421</td>
+<td>Lars Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Larsson_421" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Otto-Larsson_423</td>
+<td>Otto Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Otto-Larsson_423" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Otto%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Larsson_426</td>
+<td>Rolf Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Larsson_426" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rudolf-Larsson_425</td>
+<td>Rudolf Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Rudolf-Larsson_425" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rudolf%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Larsson_428</td>
+<td>Sven Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Larsson_428" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Torvald-Larsson_430</td>
+<td>Torvald Larsson</td>
+<td><a href="https://ifkdb.se/spelare/Torvald-Larsson_430" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Torvald%20Larsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kjell-Åke-Leisgård+(Carlsson)_152</td>
+<td>Kjell-Åke Leisgård</td>
+<td><a href="https://ifkdb.se/spelare/Kjell-Åke-Leisgård+(Carlsson)_152" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kjell-%C3%85ke%20Leisg%C3%A5rd" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kent-Lejon_433</td>
+<td>Kent Lejon</td>
+<td><a href="https://ifkdb.se/spelare/Kent-Lejon_433" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kent%20Lejon" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Conny-Leksjö+(Lindström)_459</td>
+<td>Conny Leksjö</td>
+<td><a href="https://ifkdb.se/spelare/Conny-Leksjö+(Lindström)_459" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Conny%20Leksj%C3%B6" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hannes-Lennartsson_930</td>
+<td>Hannes Lennartsson</td>
+<td><a href="https://ifkdb.se/spelare/Hannes-Lennartsson_930" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hannes%20Lennartsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Liljekrantz_441</td>
+<td>Jan Liljekrantz</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Liljekrantz_441" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Liljekrantz" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gustav-Lillienberg_938</td>
+<td>Gustav Lillienberg</td>
+<td><a href="https://ifkdb.se/spelare/Gustav-Lillienberg_938" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gustav%20Lillienberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Eive-Lind_442</td>
+<td>Eive Lind</td>
+<td><a href="https://ifkdb.se/spelare/Eive-Lind_442" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Eive%20Lind" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunnar-Lind_443</td>
+<td>Gunnar Lind</td>
+<td><a href="https://ifkdb.se/spelare/Gunnar-Lind_443" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunnar%20Lind" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Johann-Lind_444</td>
+<td>Johann Lind</td>
+<td><a href="https://ifkdb.se/spelare/Johann-Lind_444" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Johann%20Lind" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rune-Lind_454</td>
+<td>Rune Lind</td>
+<td><a href="https://ifkdb.se/spelare/Rune-Lind_454" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rune%20Lind" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Lindberg_446</td>
+<td>Erik Lindberg</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Lindberg_446" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Lindberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunro-Lindberg_447</td>
+<td>Gunro Lindberg</td>
+<td><a href="https://ifkdb.se/spelare/Gunro-Lindberg_447" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunro%20Lindberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Knut-Lindberg_448</td>
+<td>Knut Lindberg</td>
+<td><a href="https://ifkdb.se/spelare/Knut-Lindberg_448" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Knut%20Lindberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Åke-Lindén_452</td>
+<td>Åke Lindén</td>
+<td><a href="https://ifkdb.se/spelare/Åke-Lindén_452" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=%C3%85ke%20Lind%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Einar-Lindman_455</td>
+<td>Einar Lindman</td>
+<td><a href="https://ifkdb.se/spelare/Einar-Lindman_455" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Einar%20Lindman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Eje-Lindström_460</td>
+<td>Eje Lindström</td>
+<td><a href="https://ifkdb.se/spelare/Eje-Lindström_460" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Eje%20Lindstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Lindström_461</td>
+<td>Erik Lindström</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Lindström_461" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Lindstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Nils-Ljunggren_462</td>
+<td>Nils Ljunggren</td>
+<td><a href="https://ifkdb.se/spelare/Nils-Ljunggren_462" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Nils%20Ljunggren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Daniel-Ljungholm_463</td>
+<td>Daniel Ljungholm</td>
+<td><a href="https://ifkdb.se/spelare/Daniel-Ljungholm_463" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Daniel%20Ljungholm" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bert-Löfvendahl_484</td>
+<td>Bert Löfvendahl</td>
+<td><a href="https://ifkdb.se/spelare/Bert-Löfvendahl_484" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bert%20L%C3%B6fvendahl" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>G.-Lovén_435</td>
+<td>G. Lovén</td>
+<td><a href="https://ifkdb.se/spelare/G.-Lovén_435" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G.%20Lov%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Lund_467</td>
+<td>Erik Lund</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Lund_467" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Lund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Claes-Enar-Lundberg_470</td>
+<td>Claes-Enar Lundberg</td>
+<td><a href="https://ifkdb.se/spelare/Claes-Enar-Lundberg_470" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Claes-Enar%20Lundberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Torbjörn-Lundblad_471</td>
+<td>Torbjörn Lundblad</td>
+<td><a href="https://ifkdb.se/spelare/Torbjörn-Lundblad_471" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Torbj%C3%B6rn%20Lundblad" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Evert-Lundqvist_477</td>
+<td>Evert Lundqvist</td>
+<td><a href="https://ifkdb.se/spelare/Evert-Lundqvist_477" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Evert%20Lundqvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ingvar-Lundqvist_478</td>
+<td>Ingvar Lundqvist</td>
+<td><a href="https://ifkdb.se/spelare/Ingvar-Lundqvist_478" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ingvar%20Lundqvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mattias-Lundström_480</td>
+<td>Mattias Lundström</td>
+<td><a href="https://ifkdb.se/spelare/Mattias-Lundström_480" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mattias%20Lundstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Roland-Lundvall_481</td>
+<td>Roland Lundvall</td>
+<td><a href="https://ifkdb.se/spelare/Roland-Lundvall_481" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roland%20Lundvall" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ben-Magnusson_973</td>
+<td>Ben Magnusson</td>
+<td><a href="https://ifkdb.se/spelare/Ben-Magnusson_973" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ben%20Magnusson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bernt-Magnusson_485</td>
+<td>Bernt Magnusson</td>
+<td><a href="https://ifkdb.se/spelare/Bernt-Magnusson_485" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bernt%20Magnusson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Magnusson_910</td>
+<td>Harry Magnusson</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Magnusson_910" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Magnusson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Vladimir-Majdandzic_803</td>
+<td>Vladimir Majdandzic</td>
+<td><a href="https://ifkdb.se/spelare/Vladimir-Majdandzic_803" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Vladimir%20Majdandzic" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oliver-Månsson_1006</td>
+<td>Oliver Månsson</td>
+<td><a href="https://ifkdb.se/spelare/Oliver-Månsson_1006" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oliver%20M%C3%A5nsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Niclas-Martinsson_805</td>
+<td>Niclas Martinsson</td>
+<td><a href="https://ifkdb.se/spelare/Niclas-Martinsson_805" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Niclas%20Martinsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Franklin-Matib_955</td>
+<td>Franklin Matib</td>
+<td><a href="https://ifkdb.se/spelare/Franklin-Matib_955" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Franklin%20Matib" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bruno-Mattsson_495</td>
+<td>Bruno Mattsson</td>
+<td><a href="https://ifkdb.se/spelare/Bruno-Mattsson_495" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bruno%20Mattsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Mattsson_496</td>
+<td>Lennart Mattsson</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Mattsson_496" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Mattsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sigfried-Mellberg_498</td>
+<td>Sigfried Mellberg</td>
+<td><a href="https://ifkdb.se/spelare/Sigfried-Mellberg_498" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sigfried%20Mellberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kent-Mellbin_497</td>
+<td>Kent Mellbin</td>
+<td><a href="https://ifkdb.se/spelare/Kent-Mellbin_497" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kent%20Mellbin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arvid-Mellin_499</td>
+<td>Arvid Mellin</td>
+<td><a href="https://ifkdb.se/spelare/Arvid-Mellin_499" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arvid%20Mellin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Johnny-Molén_502</td>
+<td>Johnny Molén</td>
+<td><a href="https://ifkdb.se/spelare/Johnny-Molén_502" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Johnny%20Mol%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Elving-Molin_503</td>
+<td>Elving Molin</td>
+<td><a href="https://ifkdb.se/spelare/Elving-Molin_503" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Elving%20Molin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Anders-Myrander+(Johansson)_313</td>
+<td>Anders Myrander</td>
+<td><a href="https://ifkdb.se/spelare/Anders-Myrander+(Johansson)_313" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Anders%20Myrander" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rasmus-Nåfors+Dahlin_975</td>
+<td>Dahlin Rasmus Nåfors</td>
+<td><a href="https://ifkdb.se/spelare/Rasmus-Nåfors+Dahlin_975" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Dahlin%20Rasmus%20N%C3%A5fors" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Herbert-Nertby_507</td>
+<td>Herbert Nertby</td>
+<td><a href="https://ifkdb.se/spelare/Herbert-Nertby_507" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Herbert%20Nertby" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Andreas-Nilsson_809</td>
+<td>Andreas Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Andreas-Nilsson_809" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Andreas%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bror-Nilsson_512</td>
+<td>Bror Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Bror-Nilsson_512" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bror%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Nilsson_513</td>
+<td>Erik Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Nilsson_513" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunnar-Nilsson_514</td>
+<td>Gunnar Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Gunnar-Nilsson_514" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunnar%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Nilsson_515</td>
+<td>Jan Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Nilsson_515" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Erik-Nilsson_516</td>
+<td>Jan-Erik Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Erik-Nilsson_516" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan-Erik%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kurt-Nilsson_517</td>
+<td>Kurt Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Kurt-Nilsson_517" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kurt%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Erik-Nilsson_518</td>
+<td>Lars-Erik Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Erik-Nilsson_518" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars-Erik%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Per-Olof-Nilsson_522</td>
+<td>Per-Olof Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Per-Olof-Nilsson_522" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Per-Olof%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Robin-Nilsson_810</td>
+<td>Robin Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Robin-Nilsson_810" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Robin%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Stellan-Nilsson_524</td>
+<td>Stellan Nilsson</td>
+<td><a href="https://ifkdb.se/spelare/Stellan-Nilsson_524" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Stellan%20Nilsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Elof-Nöjd_536</td>
+<td>Elof Nöjd</td>
+<td><a href="https://ifkdb.se/spelare/Elof-Nöjd_536" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Elof%20N%C3%B6jd" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Widrof-Nöjd_537</td>
+<td>Widrof Nöjd</td>
+<td><a href="https://ifkdb.se/spelare/Widrof-Nöjd_537" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Widrof%20N%C3%B6jd" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>A.-Nordfeldt_526</td>
+<td>A. Nordfeldt</td>
+<td><a href="https://ifkdb.se/spelare/A.-Nordfeldt_526" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=A.%20Nordfeldt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Marcus-Nordström_530</td>
+<td>Marcus Nordström</td>
+<td><a href="https://ifkdb.se/spelare/Marcus-Nordström_530" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Marcus%20Nordstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thure-Nordström_531</td>
+<td>Thure Nordström</td>
+<td><a href="https://ifkdb.se/spelare/Thure-Nordström_531" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thure%20Nordstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kenneth-Nyström_535</td>
+<td>Kenneth Nyström</td>
+<td><a href="https://ifkdb.se/spelare/Kenneth-Nyström_535" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kenneth%20Nystr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ralph-Öberg_739</td>
+<td>Ralph Öberg</td>
+<td><a href="https://ifkdb.se/spelare/Ralph-Öberg_739" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ralph%20%C3%96berg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Odell_538</td>
+<td>Erik Odell</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Odell_538" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Odell" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bertil-Ohlsson_540</td>
+<td>Bertil Ohlsson</td>
+<td><a href="https://ifkdb.se/spelare/Bertil-Ohlsson_540" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bertil%20Ohlsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thorsteinn-Ólafsson_543</td>
+<td>Thorsteinn Ólafsson</td>
+<td><a href="https://ifkdb.se/spelare/Thorsteinn-Ólafsson_543" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thorsteinn%20%C3%93lafsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>John-Olausson+(Olsson)_555</td>
+<td>John Olausson</td>
+<td><a href="https://ifkdb.se/spelare/John-Olausson+(Olsson)_555" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=John%20Olausson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mats-Olofsson_545</td>
+<td>Mats Olofsson</td>
+<td><a href="https://ifkdb.se/spelare/Mats-Olofsson_545" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mats%20Olofsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Victor-Olofsson_896</td>
+<td>Victor Olofsson</td>
+<td><a href="https://ifkdb.se/spelare/Victor-Olofsson_896" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Victor%20Olofsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ifeoluwa-Olowoporoku_389</td>
+<td>Ifeoluwa Olowoporoku</td>
+<td><a href="https://ifkdb.se/spelare/Ifeoluwa-Olowoporoku_389" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ifeoluwa%20Olowoporoku" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sigfrid-Olsén_546</td>
+<td>Sigfrid Olsén</td>
+<td><a href="https://ifkdb.se/spelare/Sigfrid-Olsén_546" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sigfrid%20Ols%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arthur-Olsson_547</td>
+<td>Arthur Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Arthur-Olsson_547" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arthur%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Olsson_549</td>
+<td>Bengt Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Olsson_549" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Enoch-Olsson_551</td>
+<td>Enoch Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Enoch-Olsson_551" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Enoch%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Olsson_552</td>
+<td>Erik Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Olsson_552" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Filip-Olsson_553</td>
+<td>Filip Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Filip-Olsson_553" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Filip%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Olsson_554</td>
+<td>Harry Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Olsson_554" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rune-Olsson_558</td>
+<td>Rune Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Rune-Olsson_558" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rune%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Styrbjörn-Olsson_559</td>
+<td>Styrbjörn Olsson</td>
+<td><a href="https://ifkdb.se/spelare/Styrbjörn-Olsson_559" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Styrbj%C3%B6rn%20Olsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Börje-Oskarsson_560</td>
+<td>Börje Oskarsson</td>
+<td><a href="https://ifkdb.se/spelare/Börje-Oskarsson_560" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=B%C3%B6rje%20Oskarsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Åke-Östergren_742</td>
+<td>Åke Östergren</td>
+<td><a href="https://ifkdb.se/spelare/Åke-Östergren_742" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=%C3%85ke%20%C3%96stergren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Esbjörn-Österman_743</td>
+<td>Esbjörn Österman</td>
+<td><a href="https://ifkdb.se/spelare/Esbjörn-Österman_743" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Esbj%C3%B6rn%20%C3%96sterman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Östgren_741</td>
+<td>Rolf Östgren</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Östgren_741" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20%C3%96stgren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Dan-Östlund_744</td>
+<td>Dan Östlund</td>
+<td><a href="https://ifkdb.se/spelare/Dan-Östlund_744" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Dan%20%C3%96stlund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Filip-Ottosson_1004</td>
+<td>Filip Ottosson</td>
+<td><a href="https://ifkdb.se/spelare/Filip-Ottosson_1004" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Filip%20Ottosson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Christian-Ozanne_562</td>
+<td>Christian Ozanne</td>
+<td><a href="https://ifkdb.se/spelare/Christian-Ozanne_562" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Christian%20Ozanne" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ragnvald-Pålsson_594</td>
+<td>Ragnvald Pålsson</td>
+<td><a href="https://ifkdb.se/spelare/Ragnvald-Pålsson_594" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ragnvald%20P%C3%A5lsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jimmy-Paulsén+(Svensson)_666</td>
+<td>Jimmy Paulsén</td>
+<td><a href="https://ifkdb.se/spelare/Jimmy-Paulsén+(Svensson)_666" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jimmy%20Pauls%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>David-Pérez_970</td>
+<td>David Pérez</td>
+<td><a href="https://ifkdb.se/spelare/David-Pérez_970" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=David%20P%C3%A9rez" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bror-Persson_567</td>
+<td>Bror Persson</td>
+<td><a href="https://ifkdb.se/spelare/Bror-Persson_567" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bror%20Persson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gösta-Persson_568</td>
+<td>Gösta Persson</td>
+<td><a href="https://ifkdb.se/spelare/Gösta-Persson_568" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G%C3%B6sta%20Persson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Henry-Persson_569</td>
+<td>Henry Persson</td>
+<td><a href="https://ifkdb.se/spelare/Henry-Persson_569" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Henry%20Persson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leif-Persson_571</td>
+<td>Leif Persson</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Persson_571" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Persson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Manne-Persson_573</td>
+<td>Manne Persson</td>
+<td><a href="https://ifkdb.se/spelare/Manne-Persson_573" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Manne%20Persson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Persson_574</td>
+<td>Sven Persson</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Persson_574" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Persson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Berth-Pervik+(Pettersson)_579</td>
+<td>Berth Pervik</td>
+<td><a href="https://ifkdb.se/spelare/Berth-Pervik+(Pettersson)_579" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Berth%20Pervik" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Vilgot-Peterson_576</td>
+<td>Vilgot Peterson</td>
+<td><a href="https://ifkdb.se/spelare/Vilgot-Peterson_576" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Vilgot%20Peterson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Erik-Petersson_582</td>
+<td>Jan-Erik Petersson</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Erik-Petersson_582" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan-Erik%20Petersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rolf-Petersson_585</td>
+<td>Rolf Petersson</td>
+<td><a href="https://ifkdb.se/spelare/Rolf-Petersson_585" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rolf%20Petersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Theodor-Petersson_575</td>
+<td>Theodor Petersson</td>
+<td><a href="https://ifkdb.se/spelare/Theodor-Petersson_575" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Theodor%20Petersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Alexander-Petras_577</td>
+<td>Alexander Petras</td>
+<td><a href="https://ifkdb.se/spelare/Alexander-Petras_577" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Alexander%20Petras" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Pettersson_578</td>
+<td>Bengt Pettersson</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Pettersson_578" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Pettersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ingemar-Pettersson_581</td>
+<td>Ingemar Pettersson</td>
+<td><a href="https://ifkdb.se/spelare/Ingemar-Pettersson_581" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ingemar%20Pettersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Roland-Pettersson_584</td>
+<td>Roland Pettersson</td>
+<td><a href="https://ifkdb.se/spelare/Roland-Pettersson_584" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roland%20Pettersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Roland-Pettersson_918</td>
+<td>Roland Pettersson</td>
+<td><a href="https://ifkdb.se/spelare/Roland-Pettersson_918" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roland%20Pettersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Rune-Pettersson_587</td>
+<td>Rune Pettersson</td>
+<td><a href="https://ifkdb.se/spelare/Rune-Pettersson_587" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Rune%20Pettersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Magnus-Pewik+(Persson)_572</td>
+<td>Magnus Pewik</td>
+<td><a href="https://ifkdb.se/spelare/Magnus-Pewik+(Persson)_572" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Magnus%20Pewik" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Thomas-Phillips_590</td>
+<td>Thomas Phillips</td>
+<td><a href="https://ifkdb.se/spelare/Thomas-Phillips_590" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Thomas%20Phillips" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Toni-Profozic_592</td>
+<td>Toni Profozic</td>
+<td><a href="https://ifkdb.se/spelare/Toni-Profozic_592" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Toni%20Profozic" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Qvist_595</td>
+<td>Jan Qvist</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Qvist_595" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Qvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leo-Radakovic_995</td>
+<td>Leo Radakovic</td>
+<td><a href="https://ifkdb.se/spelare/Leo-Radakovic_995" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leo%20Radakovic" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Regell_602</td>
+<td>Erik Regell</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Regell_602" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Regell" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunnar-Reis_604</td>
+<td>Gunnar Reis</td>
+<td><a href="https://ifkdb.se/spelare/Gunnar-Reis_604" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunnar%20Reis" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Renneby+(Augustsson)_89</td>
+<td>Erik Renneby</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Renneby+(Augustsson)_89" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Renneby" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bastian-Rojas+Diaz+(Andersson)_817</td>
+<td>Diaz Bastian Rojas</td>
+<td><a href="https://ifkdb.se/spelare/Bastian-Rojas+Diaz+(Andersson)_817" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Diaz%20Bastian%20Rojas" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Herbert-Rosell_605</td>
+<td>Herbert Rosell</td>
+<td><a href="https://ifkdb.se/spelare/Herbert-Rosell_605" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Herbert%20Rosell" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Folke-Rosén_606</td>
+<td>Folke Rosén</td>
+<td><a href="https://ifkdb.se/spelare/Folke-Rosén_606" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Folke%20Ros%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Peter-Rosengren_607</td>
+<td>Peter Rosengren</td>
+<td><a href="https://ifkdb.se/spelare/Peter-Rosengren_607" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Peter%20Rosengren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Raimondo-Rossi_609</td>
+<td>Raimondo Rossi</td>
+<td><a href="https://ifkdb.se/spelare/Raimondo-Rossi_609" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Raimondo%20Rossi" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oskar-Rotenberg_610</td>
+<td>Oskar Rotenberg</td>
+<td><a href="https://ifkdb.se/spelare/Oskar-Rotenberg_610" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oskar%20Rotenberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bror-Rundberg_611</td>
+<td>Bror Rundberg</td>
+<td><a href="https://ifkdb.se/spelare/Bror-Rundberg_611" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bror%20Rundberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oskar-Rutgersson_612</td>
+<td>Oskar Rutgersson</td>
+<td><a href="https://ifkdb.se/spelare/Oskar-Rutgersson_612" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oskar%20Rutgersson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gunnar-Ruthberg_613</td>
+<td>Gunnar Ruthberg</td>
+<td><a href="https://ifkdb.se/spelare/Gunnar-Ruthberg_613" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gunnar%20Ruthberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sture-Ryberg_614</td>
+<td>Sture Ryberg</td>
+<td><a href="https://ifkdb.se/spelare/Sture-Ryberg_614" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sture%20Ryberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sigurd-Rydberg_617</td>
+<td>Sigurd Rydberg</td>
+<td><a href="https://ifkdb.se/spelare/Sigurd-Rydberg_617" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sigurd%20Rydberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Anders-Rylander_619</td>
+<td>Anders Rylander</td>
+<td><a href="https://ifkdb.se/spelare/Anders-Rylander_619" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Anders%20Rylander" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sven-Rylander_621</td>
+<td>Sven Rylander</td>
+<td><a href="https://ifkdb.se/spelare/Sven-Rylander_621" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sven%20Rylander" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Saidu-Salisu_950</td>
+<td>Saidu Salisu</td>
+<td><a href="https://ifkdb.se/spelare/Saidu-Salisu_950" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Saidu%20Salisu" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lucas-Samuelsson_709</td>
+<td>Lucas Samuelsson</td>
+<td><a href="https://ifkdb.se/spelare/Lucas-Samuelsson_709" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lucas%20Samuelsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Morgan-Samuelsson_624</td>
+<td>Morgan Samuelsson</td>
+<td><a href="https://ifkdb.se/spelare/Morgan-Samuelsson_624" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Morgan%20Samuelsson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gustaf-Sandberg_627</td>
+<td>Gustaf Sandberg</td>
+<td><a href="https://ifkdb.se/spelare/Gustaf-Sandberg_627" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gustaf%20Sandberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Roland-Sandberg_630</td>
+<td>Roland Sandberg</td>
+<td><a href="https://ifkdb.se/spelare/Roland-Sandberg_630" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roland%20Sandberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Hans-Sandesjö+(Svensson)_661</td>
+<td>Hans Sandesjö</td>
+<td><a href="https://ifkdb.se/spelare/Hans-Sandesjö+(Svensson)_661" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Hans%20Sandesj%C3%B6" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>William-Sandford_979</td>
+<td>William Sandford</td>
+<td><a href="https://ifkdb.se/spelare/William-Sandford_979" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=William%20Sandford" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Sandgren+(Eriksson)_193</td>
+<td>Lars Sandgren</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Sandgren+(Eriksson)_193" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Sandgren" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Herbert-Sandström_632</td>
+<td>Herbert Sandström</td>
+<td><a href="https://ifkdb.se/spelare/Herbert-Sandström_632" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Herbert%20Sandstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Allan-Schüler_639</td>
+<td>Allan Schüler</td>
+<td><a href="https://ifkdb.se/spelare/Allan-Schüler_639" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Allan%20Sch%C3%BCler" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Per-Otto-Schulz_637</td>
+<td>Per-Otto Schulz</td>
+<td><a href="https://ifkdb.se/spelare/Per-Otto-Schulz_637" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Per-Otto%20Schulz" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ali-Selim_824</td>
+<td>Ali Selim</td>
+<td><a href="https://ifkdb.se/spelare/Ali-Selim_824" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ali%20Selim" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Johannes-Selvén_954</td>
+<td>Johannes Selvén</td>
+<td><a href="https://ifkdb.se/spelare/Johannes-Selvén_954" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Johannes%20Selv%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Harry-Setterlund_641</td>
+<td>Harry Setterlund</td>
+<td><a href="https://ifkdb.se/spelare/Harry-Setterlund_641" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Harry%20Setterlund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kjell-Sjöberg_642</td>
+<td>Kjell Sjöberg</td>
+<td><a href="https://ifkdb.se/spelare/Kjell-Sjöberg_642" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kjell%20Sj%C3%B6berg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Vallentin-Skoglund_646</td>
+<td>Vallentin Skoglund</td>
+<td><a href="https://ifkdb.se/spelare/Vallentin-Skoglund_646" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Vallentin%20Skoglund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Folke-Sköld_645</td>
+<td>Folke Sköld</td>
+<td><a href="https://ifkdb.se/spelare/Folke-Sköld_645" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Folke%20Sk%C3%B6ld" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oskar-Söderberg_681</td>
+<td>Oskar Söderberg</td>
+<td><a href="https://ifkdb.se/spelare/Oskar-Söderberg_681" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oskar%20S%C3%B6derberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Algot-Söderqvist_682</td>
+<td>Algot Söderqvist</td>
+<td><a href="https://ifkdb.se/spelare/Algot-Söderqvist_682" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Algot%20S%C3%B6derqvist" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Moses-Ssewankambo_829</td>
+<td>Moses Ssewankambo</td>
+<td><a href="https://ifkdb.se/spelare/Moses-Ssewankambo_829" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Moses%20Ssewankambo" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Helge-Ståhlfors_652</td>
+<td>Helge Ståhlfors</td>
+<td><a href="https://ifkdb.se/spelare/Helge-Ståhlfors_652" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Helge%20St%C3%A5hlfors" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Torsten-Ståhlfors_653</td>
+<td>Torsten Ståhlfors</td>
+<td><a href="https://ifkdb.se/spelare/Torsten-Ståhlfors_653" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Torsten%20St%C3%A5hlfors" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Börje-Stensson_647</td>
+<td>Börje Stensson</td>
+<td><a href="https://ifkdb.se/spelare/Börje-Stensson_647" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=B%C3%B6rje%20Stensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Olof-Stolt_649</td>
+<td>Olof Stolt</td>
+<td><a href="https://ifkdb.se/spelare/Olof-Stolt_649" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Olof%20Stolt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Ström_650</td>
+<td>Lennart Ström</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Ström_650" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Str%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kjell-Sundh_654</td>
+<td>Kjell Sundh</td>
+<td><a href="https://ifkdb.se/spelare/Kjell-Sundh_654" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kjell%20Sundh" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Kenneth-Sundin_655</td>
+<td>Kenneth Sundin</td>
+<td><a href="https://ifkdb.se/spelare/Kenneth-Sundin_655" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Kenneth%20Sundin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Verner-Sundvall_656</td>
+<td>Verner Sundvall</td>
+<td><a href="https://ifkdb.se/spelare/Verner-Sundvall_656" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Verner%20Sundvall" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Allan-Svantesson_657</td>
+<td>Allan Svantesson</td>
+<td><a href="https://ifkdb.se/spelare/Allan-Svantesson_657" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Allan%20Svantesson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ulf-Svärd_679</td>
+<td>Ulf Svärd</td>
+<td><a href="https://ifkdb.se/spelare/Ulf-Svärd_679" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ulf%20Sv%C3%A4rd" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Peter-Svärdegård_678</td>
+<td>Peter Svärdegård</td>
+<td><a href="https://ifkdb.se/spelare/Peter-Svärdegård_678" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Peter%20Sv%C3%A4rdeg%C3%A5rd" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>-Svensson_676</td>
+<td>Svensson</td>
+<td><a href="https://ifkdb.se/spelare/-Svensson_676" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Elis-Svensson_658</td>
+<td>Elis Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Elis-Svensson_658" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Elis%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Göte-Svensson_660</td>
+<td>Göte Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Göte-Svensson_660" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=G%C3%B6te%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Åke-Svensson_665</td>
+<td>Jan-Åke Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Åke-Svensson_665" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan-%C3%85ke%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jonathan-Svensson_453</td>
+<td>Jonathan Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Jonathan-Svensson_453" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jonathan%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Leif-Svensson_668</td>
+<td>Leif Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Svensson_668" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Mats-Svensson_669</td>
+<td>Mats Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Mats-Svensson_669" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Mats%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ragnar-Svensson_671</td>
+<td>Ragnar Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Ragnar-Svensson_671" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ragnar%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Sami-Svensson_673</td>
+<td>Sami Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Sami-Svensson_673" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Sami%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Urban-Svensson_675</td>
+<td>Urban Svensson</td>
+<td><a href="https://ifkdb.se/spelare/Urban-Svensson_675" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Urban%20Svensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gerhard-Täll_683</td>
+<td>Gerhard Täll</td>
+<td><a href="https://ifkdb.se/spelare/Gerhard-Täll_683" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gerhard%20T%C3%A4ll" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Olof-Tell_684</td>
+<td>Olof Tell</td>
+<td><a href="https://ifkdb.se/spelare/Olof-Tell_684" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Olof%20Tell" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ove-Tengberg_685</td>
+<td>Ove Tengberg</td>
+<td><a href="https://ifkdb.se/spelare/Ove-Tengberg_685" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ove%20Tengberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Tengwall+(Prochazka)_591</td>
+<td>Jan Tengwall</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Tengwall+(Prochazka)_591" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Tengwall" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Eric-Thelander_687</td>
+<td>Eric Thelander</td>
+<td><a href="https://ifkdb.se/spelare/Eric-Thelander_687" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Eric%20Thelander" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Ove-Thelin_688</td>
+<td>Ove Thelin</td>
+<td><a href="https://ifkdb.se/spelare/Ove-Thelin_688" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Ove%20Thelin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Fredrik-Thorén_689</td>
+<td>Fredrik Thorén</td>
+<td><a href="https://ifkdb.se/spelare/Fredrik-Thorén_689" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Fredrik%20Thor%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Oliver-Thoreson_964</td>
+<td>Oliver Thoreson</td>
+<td><a href="https://ifkdb.se/spelare/Oliver-Thoreson_964" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Oliver%20Thoreson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Karl-Thorin_690</td>
+<td>Karl Thorin</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Thorin_690" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl%20Thorin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Odd-Thorstenson+(Torstensson)_696</td>
+<td>Odd Thorstenson</td>
+<td><a href="https://ifkdb.se/spelare/Odd-Thorstenson+(Torstensson)_696" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Odd%20Thorstenson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Carl-Olof-Thunberg_692</td>
+<td>Carl-Olof Thunberg</td>
+<td><a href="https://ifkdb.se/spelare/Carl-Olof-Thunberg_692" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Carl-Olof%20Thunberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Thyberg_693</td>
+<td>Erik Thyberg</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Thyberg_693" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Thyberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Roland-Torstensson_697</td>
+<td>Roland Torstensson</td>
+<td><a href="https://ifkdb.se/spelare/Roland-Torstensson_697" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Roland%20Torstensson" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Arne-Tranberg_698</td>
+<td>Arne Tranberg</td>
+<td><a href="https://ifkdb.se/spelare/Arne-Tranberg_698" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Arne%20Tranberg" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Eric-Uhlén_700</td>
+<td>Eric Uhlén</td>
+<td><a href="https://ifkdb.se/spelare/Eric-Uhlén_700" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Eric%20Uhl%C3%A9n" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Magnus-Verdin_719</td>
+<td>Magnus Verdin</td>
+<td><a href="https://ifkdb.se/spelare/Magnus-Verdin_719" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Magnus%20Verdin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Erik-Vingner_725</td>
+<td>Erik Vingner</td>
+<td><a href="https://ifkdb.se/spelare/Erik-Vingner_725" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Erik%20Vingner" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bror-Wallin_703</td>
+<td>Bror Wallin</td>
+<td><a href="https://ifkdb.se/spelare/Bror-Wallin_703" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bror%20Wallin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jan-Wallin_704</td>
+<td>Jan Wallin</td>
+<td><a href="https://ifkdb.se/spelare/Jan-Wallin_704" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jan%20Wallin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lennart-Wallin_705</td>
+<td>Lennart Wallin</td>
+<td><a href="https://ifkdb.se/spelare/Lennart-Wallin_705" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lennart%20Wallin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Nils-Wallin_706</td>
+<td>Nils Wallin</td>
+<td><a href="https://ifkdb.se/spelare/Nils-Wallin_706" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Nils%20Wallin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Viktor-Wallin_707</td>
+<td>Viktor Wallin</td>
+<td><a href="https://ifkdb.se/spelare/Viktor-Wallin_707" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Viktor%20Wallin" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Karl-Erik-Wallman_708</td>
+<td>Karl-Erik Wallman</td>
+<td><a href="https://ifkdb.se/spelare/Karl-Erik-Wallman_708" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Karl-Erik%20Wallman" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Stefan-Wättring_730</td>
+<td>Stefan Wättring</td>
+<td><a href="https://ifkdb.se/spelare/Stefan-Wättring_730" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Stefan%20W%C3%A4ttring" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Jake-Weisbrod_897</td>
+<td>Jake Weisbrod</td>
+<td><a href="https://ifkdb.se/spelare/Jake-Weisbrod_897" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Jake%20Weisbrod" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Joakim-Wendt_710</td>
+<td>Joakim Wendt</td>
+<td><a href="https://ifkdb.se/spelare/Joakim-Wendt_710" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Joakim%20Wendt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="duplicate">
+<td>Leif-Wendt_994</td>
+<td>Leif Wendt</td>
+<td><a href="https://ifkdb.se/spelare/Leif-Wendt_994" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Leif%20Wendt" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Nils-Wenzel_715</td>
+<td>Nils Wenzel</td>
+<td><a href="https://ifkdb.se/spelare/Nils-Wenzel_715" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Nils%20Wenzel" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gustaf-Werner_720</td>
+<td>Gustaf Werner</td>
+<td><a href="https://ifkdb.se/spelare/Gustaf-Werner_720" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gustaf%20Werner" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Lars-Werner_721</td>
+<td>Lars Werner</td>
+<td><a href="https://ifkdb.se/spelare/Lars-Werner_721" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Lars%20Werner" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Gustav-Westlund_723</td>
+<td>Gustav Westlund</td>
+<td><a href="https://ifkdb.se/spelare/Gustav-Westlund_723" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Gustav%20Westlund" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Tonie-Wiklander_727</td>
+<td>Tonie Wiklander</td>
+<td><a href="https://ifkdb.se/spelare/Tonie-Wiklander_727" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Tonie%20Wiklander" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Bengt-Wikström_728</td>
+<td>Bengt Wikström</td>
+<td><a href="https://ifkdb.se/spelare/Bengt-Wikström_728" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Bengt%20Wikstr%C3%B6m" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Axel-Wingård_729</td>
+<td>Axel Wingård</td>
+<td><a href="https://ifkdb.se/spelare/Axel-Wingård_729" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Axel%20Wing%C3%A5rd" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Magnus-Wygler+(Brunbäck)_133</td>
+<td>Magnus Wygler</td>
+<td><a href="https://ifkdb.se/spelare/Magnus-Wygler+(Brunbäck)_133" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Magnus%20Wygler" target="_blank">Sök</a></td>
+</tr>
+
+<tr class="">
+<td>Benjamin-Zalo_867</td>
+<td>Benjamin Zalo</td>
+<td><a href="https://ifkdb.se/spelare/Benjamin-Zalo_867" target="_blank">Öppna</a></td>
+<td><a href="https://www.wikidata.org/w/index.php?search=Benjamin%20Zalo" target="_blank">Sök</a></td>
+</tr>
+
+</table>
+
+<p style="margin-top:20px;">
+Röd markering = potentiell namndubblett i IFKDB.
+</p>
+
+</body>
+</html>
