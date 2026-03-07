@@ -20,6 +20,11 @@ Koppla ihop Wikipedia med [ifkdb](https://ifkdb.se/) en databas med IFK Götebor
    * [X] göra bilder som avbildar IFKDB spelare på wikicommons kopplade med strukturerad data [#4](https://github.com/salgo60/ifkdb/issues/4) 
 * [X] försök att lokalisera personers plats på kyrkogårdar [#9](https://github.com/salgo60/ifkdb/issues/9)
 ----
+### Mix-and-Match
+* [katalog 7678](https://mix-n-match.toolforge.org/#/catalog/7678)
+  * [#32](https://github.com/salgo60/ifkdb/issues/32) "Skapa mixandmatch katalog IFKDB "
+* video [IFKDB Mixandmatch Wikidata](https://youtu.be/kvaPqzO2cWQ)
+----
 ### Lesson learned
 Wikipedia/Wikidata har enormt skitigt "fotbollsdata" - "klippa och klistra" skalar inte --> blir bara mer och mer ruttet för varje dag...
 * skulle kunna bli magiskt bra om vi byggde upp ett datadrivet ekosystem som uppdaterar varandra och kollar konsistens...
